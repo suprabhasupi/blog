@@ -17,7 +17,6 @@ footer,
 header,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
@@ -42,6 +41,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -333,16 +333,18 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
+  padding: 0;
+  margin: 0;
+  /* margin-left: 1.45rem; */
+  /* margin-right: 0; */
+  /* margin-top: 0; */
+  /* padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
   list-style-position: outside;
-  list-style-image: none;
+  list-style-image: none; */
 }
 ol {
   margin-left: 1.45rem;
@@ -510,6 +512,7 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+  margin-right: 2rem;
 }
 ol li {
   padding-left: 0;

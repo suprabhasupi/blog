@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import "./style.scss"
 import Github from '../../images/icons/github.svg'
-import Blog from '../../icons/images/blog.svg'
+import Blog from '../../images/icons/blog.svg'
 import Devto from '../../images/icons/devto.svg'
 import Instagram from '../../images/icons/instagram.svg'
 import Linkedin from '../../images/icons/linkedin.svg'

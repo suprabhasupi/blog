@@ -4,11 +4,11 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-// You can delete this file if you're not using it
 const path = require(`path`)
 // const fs = require(`fs`).promises
 
-const postTemplate = path.resolve(`./src/pages/index.js`)
+const postTemplate = path.resolve(`./src/templates/page.js`)
+
 const query = `
   {
     pages: allMdx(
@@ -37,10 +37,10 @@ const query = `
 exports.createPages = async ({ graphql, actions }) => {
   const response = await graphql(query)
   if (response.errors) throw new Error(response.errors)
-  const { pages, posts } = response.data
+  const { posts } = response.data
 
-  posts.nodes.forEach(page => {
-    const { slug } = page.frontmatter
+  posts.nodes.forEach(post => {
+    const { slug } = post.frontmatter
     if (slug) {
       actions.createPage({
         path: slug,
@@ -49,15 +49,13 @@ exports.createPages = async ({ graphql, actions }) => {
       })
     }
   })
+}
 
-  // posts.nodes.forEach((post, index, arr) => {
-  // //   const nextSlug = arr[index - 1]?.frontmatter.slug || ``
-  // //   const prevSlug = arr[index + 1]?.frontmatter.slug || ``
-  //   const { slug } = post.frontmatter
-  //   actions.createPage({
-  //     path: slug,
-  //     component: postTemplate,
-  //     // context: { slug, nextSlug, prevSlug },
-  //   })
-  // })
+exports.onCreateNode = async ({ node }) => {
+  if (
+    node.internal.type === `Mdx` &&
+    node.fileAbsolutePath.includes(`contents/posts`)
+  ) {
+    node.frontmatter.slug = `/blog` + node.frontmatter.slug
+  }
 }

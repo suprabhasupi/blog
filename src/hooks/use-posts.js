@@ -8,11 +8,23 @@ const usePosts = () => {
             title
             slug
           }
-          excerpt
         }
       }
     }
   `)
+//   const data = useStaticQuery(graphql`
+//     query {
+//       allMdx {
+//         nodes {
+//           frontmatter {
+//             title
+//             slug
+//           }
+//           excerpt
+//         }
+//       }
+//     }
+//   `)
   return data.allMdx.nodes.map(post => {
     return {
       title: post.frontmatter.title,

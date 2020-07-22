@@ -8,7 +8,7 @@ import "./index.scss"
 import PostTemplate from "../templates/posts.js"
 import usePosts from "../hooks/use-posts"
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   const posts = usePosts()
   return (
     <Layout>

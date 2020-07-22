@@ -26,7 +26,8 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <p>Helo</p>
+  // return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Image

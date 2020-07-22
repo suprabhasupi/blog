@@ -1,13 +1,26 @@
-import React from 'react'
+import React from "react"
+import { Link } from "gatsby"
 
+// export const query = graphql`
+//     query($slug: String!) {
+//         mdx(frontmatter: {slug: {eq: $slug}}) {
+//             frontmatter {
+//                 title
+//             }
+//             body
+//         }
+//     }
+// `
 
-export default function PostTemplate({ data }) {
-return (
+const PostTemplate = ({ post }) => {
+  // console.log("PostTemplate -> post", post)
+  return (
     <>
-        <div>
-            Hello JSON= {JSON.stringify(data)}
-        </div>
-
+      <div>
+        <Link to={post.slug}> {post.title}</Link>
+      </div>
     </>
-)
+  )
 }
+
+export default PostTemplate

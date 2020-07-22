@@ -8,7 +8,7 @@
 const path = require(`path`)
 // const fs = require(`fs`).promises
 
-const postTemplate = path.resolve(`./src/templates/posts.js`)
+const postTemplate = path.resolve(`./src/pages/index.js`)
 const query = `
   {
     pages: allMdx(
@@ -35,29 +35,29 @@ const query = `
 `
 
 exports.createPages = async ({ graphql, actions }) => {
-    const response = await graphql(query)
-    if (response.errors) throw new Error(response.errors)
-    const { pages, posts } = response.data
-  
-    posts.nodes.forEach(page => {
-      const { slug } = page.frontmatter
-      if (slug) {
-        actions.createPage({
-          path: slug,
-          component: postTemplate,
-          context: { slug },
-        })
-      }
-    })
-  
-    // posts.nodes.forEach((post, index, arr) => {
-    // //   const nextSlug = arr[index - 1]?.frontmatter.slug || ``
-    // //   const prevSlug = arr[index + 1]?.frontmatter.slug || ``
-    //   const { slug } = post.frontmatter
-    //   actions.createPage({
-    //     path: slug,
-    //     component: postTemplate,
-    //     // context: { slug, nextSlug, prevSlug },
-    //   })
-    // })
-  }
+  const response = await graphql(query)
+  if (response.errors) throw new Error(response.errors)
+  const { pages, posts } = response.data
+
+  posts.nodes.forEach(page => {
+    const { slug } = page.frontmatter
+    if (slug) {
+      actions.createPage({
+        path: slug,
+        component: postTemplate,
+        context: { slug },
+      })
+    }
+  })
+
+  // posts.nodes.forEach((post, index, arr) => {
+  // //   const nextSlug = arr[index - 1]?.frontmatter.slug || ``
+  // //   const prevSlug = arr[index + 1]?.frontmatter.slug || ``
+  //   const { slug } = post.frontmatter
+  //   actions.createPage({
+  //     path: slug,
+  //     component: postTemplate,
+  //     // context: { slug, nextSlug, prevSlug },
+  //   })
+  // })
+}

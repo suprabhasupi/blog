@@ -7,9 +7,11 @@ const PostTemplate = ({post}) => {
   // console.log("PostTemplate -----> post", post)
   return (
     <>
-      <div>
-        <Link to={post.slug}> {post.title}</Link>
+      <div className='post-wrapper'>
+      <Link to={post.slug}>
         <Image className='post-cover' fluid={post.img.sharp.fluid} />
+        </Link>
+        <Link to={post.slug}> {post.title}</Link>
       </div>
     </>
   )

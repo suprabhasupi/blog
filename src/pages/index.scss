@@ -9,3 +9,7 @@ body {
     font-family: "Quicksand";
     font-weight: 500;
 }
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+}

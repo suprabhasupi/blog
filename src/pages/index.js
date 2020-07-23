@@ -17,11 +17,13 @@ const IndexPage = () => {
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
-
+      <div className='post-list'>
       {posts.map(post => {
         //    return <pre>{JSON.stringify(post, null, 2)}</pre>
         return <PostTemplate key={post.slug} post={post} />
       })}
+      
+      </div>
     </Layout>
   )
 }

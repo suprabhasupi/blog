@@ -7,6 +7,19 @@ const usePosts = () => {
           frontmatter {
             title
             slug
+            cover {
+              img {
+                sharp: childImageSharp {
+                  fluid(
+                      maxWidth: 200
+                      maxHeight: 200
+                      duotone: {shadow: "#663399", highlight: "#ddbbff"}
+                  ) {
+                      ...GatsbyImageSharpFluid_withWebp
+                  }
+              }
+              }
+            }
           }
         }
       }
@@ -29,6 +42,7 @@ const usePosts = () => {
     return {
       title: post.frontmatter.title,
       slug: post.frontmatter.slug,
+      img: post.frontmatter.cover.img,
       excerpt: post.excerpt,
     }
   })

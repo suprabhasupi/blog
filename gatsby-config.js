@@ -13,13 +13,13 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `images`,
-    //     path: `${__dirname}/src/images`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `./contents/photos`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

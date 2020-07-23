@@ -11,16 +11,6 @@ const postTemplate = path.resolve(`./src/templates/page.js`)
 
 const query = `
   {
-    pages: allMdx(
-      filter: { fileAbsolutePath: { regex: "/pages/" } }
-    ) {
-      nodes {
-        frontmatter {
-          slug
-        }
-      }
-    }
-
     posts: allMdx(
       filter: { fileAbsolutePath: { regex: "/posts/" } }
       sort: { fields: frontmatter___date, order: DESC }

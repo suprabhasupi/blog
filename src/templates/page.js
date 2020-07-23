@@ -13,7 +13,7 @@ export const query = graphql`
 `
 
 const PageTemplate = ({ data }) => {
-  console.log("PostTemplate -> dataaaaa", data)
+  // console.log("PostTemplate -> dataaaaa", data)
   return (
     <>
       <div>

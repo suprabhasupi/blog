@@ -3,7 +3,7 @@ title: first title
 slug: /one
 date: 2020-07-27
 cover:
-  img: gatsby+styled-components.svg
+  img: ../photos/banner.jpg
 tags:
   - Web Dev
   - JS

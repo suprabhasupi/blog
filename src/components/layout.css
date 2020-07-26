@@ -398,10 +398,9 @@ figure {
   margin-bottom: 1.45rem;
 }
 pre {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 1.45rem;
+  background: red;
+  width: 50rem;
+  margin: 2rem auto;
   font-size: 0.85rem;
   line-height: 1.42;
   background: hsla(0, 0%, 0%, 0.04);
@@ -409,7 +408,9 @@ pre {
   overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
+  position: relative;
 }
+
 table {
   margin-left: 0;
   margin-right: 0;

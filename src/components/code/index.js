@@ -2,6 +2,7 @@ import { MDXProvider } from '@mdx-js/react';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import React from 'react';
 import theme from 'prism-react-renderer/themes/nightOwl';
+import './index.scss'
 
 
 const components = {

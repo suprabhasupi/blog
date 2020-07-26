@@ -1,0 +1,42 @@
+pre {
+  &::after {
+    background: black;
+    border-radius: 0 0 0.25rem 0.25rem;
+    font-size: 14px;
+    letter-spacing: 0.025rem;
+    padding: 0.1rem 0.5rem;
+    position: absolute;
+    right: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+    top: 0;
+    font-weight: 600;
+  }
+  &.language-javascript::after {
+    content: "js";
+    background: #f7df1e;
+    color: black;
+  }
+  &.language-js::after {
+    content: "js";
+    background: #f7df1e;
+    color: black;
+  }
+  &.language-jsx::after {
+    content: "jsx";
+    background: #f7df1e;
+    color: black;
+  }
+  &.language-html::after {
+    content: "html";
+    background: #005a9c;
+    color: white;
+  }
+  &.language-css::after {
+    content: "css";
+    background: #ff9800;
+    color: white;
+  }
+}
+
+/* pre[class="language-js"]::after { */

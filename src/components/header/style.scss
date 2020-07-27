@@ -1,23 +1,31 @@
 nav {
   background: #314d92;
   margin-bottom: 1.45rem;
-  padding: 1rem 5rem;
+  padding: 0.5rem 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   ul {
     display: flex;
+    align-items: center;
     list-style: none;
+    .logo {
+      width: 3rem;
+    }
     li {
       margin-bottom: 0;
     }
   }
   a {
+    display: flex;
     color: white;
   }
   input {
     border-radius: 4px;
-    padding: 8px;
+    padding: 4px 8px;
     width: 15rem;
+    font-size: 12px;
+    background: #506aa6;
+    color: white;
   }
 }

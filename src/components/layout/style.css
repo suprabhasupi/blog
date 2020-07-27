@@ -4,6 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  /* background-color: #f9fafb; */
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -618,8 +619,16 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+::selection {
+  background-color: #3bd174;
+}
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
 }
+
+

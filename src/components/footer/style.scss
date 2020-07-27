@@ -1,12 +1,20 @@
 footer {
   margin-top: 5rem;
-  background-color: red;
-  display: flex;
-  justify-content: space-between;
-  padding: 4rem 5rem;
+  background-color: #314d92;
+  .footer-curve {
+    position: relative;
+    top: -0.3em;
+  }
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65rem;
+    margin: auto;
+  }
   .social-icons-copyright {
     flex-direction: column;
-    img {
+    svg {
       width: 40px;
       margin: 8px 16px;
     }
@@ -22,5 +30,11 @@ footer {
   ul {
     list-style: none;
     display: flex;
+  }
+  .copyright {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
   }
 }

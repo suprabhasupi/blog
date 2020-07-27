@@ -1,10 +1,17 @@
 import { Link } from "gatsby"
 import React from "react"
 import "./style.scss"
+// import Logo from '../../images/logo.png'
+import Logo from '../../images/logo1.png'
 
 const Header = () => (
   <nav>
     <ul>
+      <li>
+        <a href='https://www.suprabha.me/' target='_blank'>
+          <img src={Logo} alt="suprabha's logo" className='logo'/>
+        </a>
+      </li>
       <li>
         <Link to="/"> Home </Link>
       </li>

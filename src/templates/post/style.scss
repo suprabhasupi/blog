@@ -1,14 +1,24 @@
 .post-wrapper {
+  width: calc(100% / 4 - 30px) ;
   margin: 20px;
-  box-shadow: 0px 0px 7px 7px #f4f4f4;
-  &:nth-child(n + 3) {
-    margin-left: 0;
-  }
-  &:first-child {
-    margin-left: 0;
+  margin-left: 0;
+  border-radius: 14px;
+  border: 1px solid #eaeaea;
+  // box-shadow: 0px 0px 7px 7px #f4f4f4;
+  box-shadow: 
+  0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+  &:hover {
+    // transform: scale(1.05);
+    box-shadow: 
+    12px 12px 16px 0 #eaebec inset,
+    -8px -8px 12px 0 #ffffff inset;
   }
   .post-cover {
-    width: 275px;
+    width: 100%;
+    // width: 280px;
+    max-height: 210px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
   }
   .post-info {
     padding: 10px 14px;

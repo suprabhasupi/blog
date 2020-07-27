@@ -15,7 +15,7 @@ export const query = graphql`
 `
 
 const PageTemplate = ({ data }) => {
-  console.log("PostTemplate -> dataaaaa", data.mdx.body)
+  // console.log("PostTemplate -> dataaaaa", data.mdx.body)
   return (
     <>
       <div>

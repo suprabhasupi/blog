@@ -7,6 +7,7 @@ const usePosts = () => {
           frontmatter {
             title
             slug
+            tags
             cover {
               img {
                 sharp: childImageSharp {
@@ -43,6 +44,7 @@ const usePosts = () => {
       title: post.frontmatter.title,
       slug: post.frontmatter.slug,
       img: post.frontmatter.cover.img,
+      tags: post.frontmatter.tags,
       excerpt: post.excerpt,
     }
   })

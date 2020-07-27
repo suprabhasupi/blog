@@ -6,7 +6,7 @@ cover:
   img: ../photos/banner.jpg
 tags:
   - Web Dev
-  - JS
+  - HTML
 ---
 
 ### Hello One coming here!

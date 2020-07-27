@@ -7,7 +7,7 @@ import './index.scss'
 
 const components = {
   h2: ({ children }) => (
-    <h2 style={{ color: 'rebeccapurple' }}>{children}</h2>
+    <h2 style={{ color: '#314d92' }}>{children}</h2>
   ),
   'p.inlineCode': props => (
     <code style={{ backgroundColor: 'lightgray' }} {...props} />

@@ -14,7 +14,6 @@ const usePosts = () => {
                   fluid(
                       maxWidth: 200
                       maxHeight: 200
-                      duotone: {shadow: "#663399", highlight: "#ddbbff"}
                   ) {
                       ...GatsbyImageSharpFluid_withWebp
                   }
@@ -26,6 +25,8 @@ const usePosts = () => {
       }
     }
   `)
+  // duotone: {shadow: "#663399", highlight: "#ddbbff"}
+
 //   const data = useStaticQuery(graphql`
 //     query {
 //       allMdx {

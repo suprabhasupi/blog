@@ -1,25 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
-import { graphql } from 'gatsby'
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import "./index.scss"
 import PostTemplate from "../templates/posts.js"
 import usePosts from "../hooks/use-posts"
-import TagList from '../components/tagList'
-import {useQueryParam} from '../hooks/useQueryParam.js'
+import TagList from "../components/tagList"
+import { useQueryParam } from "../hooks/useQueryParam.js"
 
 const insertAllTag = (tags, count) =>
   !tags.map(tag => tag.title).includes(`All`) &&
   tags.unshift({ title: `All`, count })
 
-const filterPostsByTag = (tag, posts) => 
+const filterPostsByTag = (tag, posts) =>
   // If !tag, tag is null which stands for all posts.
   posts.filter(post => !tag || post.tags.includes(tag))
 
-  
-const IndexPage = ({data}) => {
+const IndexPage = ({ data }) => {
   const { allMdx } = data
   const { tags } = allMdx
   const [activeTag, setActiveTag] = useQueryParam(`tag`)
@@ -31,25 +30,21 @@ const IndexPage = ({data}) => {
     <Layout>
       <SEO title="Home" />
       <h1>Suprabha's Blog</h1>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
+      <div className="blog-info">
+        <TagList {...{ tags, activeTag, setActiveTag }} />
+        <div className="post-list">
+          <PostTemplate post={filteredPosts} />
+        </div>
       </div>
-      <TagList {...{ tags, activeTag, setActiveTag }} />
-      <div className='post-list'>
-      <PostTemplate post={filteredPosts} />
-      
       {/* {posts.map(post => {
         //    return <pre>{JSON.stringify(post, null, 2)}</pre>
         return <PostTemplate key={post.slug} post={post} />
       })} */}
-      
-      </div>
     </Layout>
   )
 }
 
 export default IndexPage
-
 
 export const query = graphql`
   {

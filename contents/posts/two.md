@@ -5,7 +5,7 @@ date: 2020-07-27
 cover:
   img: ../photos/banner.jpg
 tags:
-  - Web Dev
+  - Gatsby
   - JS
 ---
 

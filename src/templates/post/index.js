@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Image from "gatsby-image"
 import { Calendar } from "styled-icons/boxicons-regular"
 // import { Tags } from "styled-icons/fa-solid"
-import "./post.scss"
+import "./style.scss"
 
 // const RedZap = styled(BookReader)`
 //   color: red;

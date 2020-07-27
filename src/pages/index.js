@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 import "./index.scss"
-import PostTemplate from "../templates/posts.js"
+import PostTemplate from "../templates/post"
 import usePosts from "../hooks/use-posts"
 import TagList from "../components/tagList"
 import { useQueryParam } from "../hooks/useQueryParam.js"
@@ -33,6 +33,8 @@ const IndexPage = ({ data }) => {
       <div className="blog-info">
         <TagList {...{ tags, activeTag, setActiveTag }} />
         <div className="post-list">
+          <PostTemplate post={filteredPosts} />
+          <PostTemplate post={filteredPosts} />
           <PostTemplate post={filteredPosts} />
         </div>
       </div>

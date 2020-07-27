@@ -1,8 +1,33 @@
 .post-wrapper {
-    border: 1px solid #ccc;
-    margin: 20px;
-    .post-cover {
-        width: 300px;
+  margin: 20px;
+  box-shadow: 0px 0px 7px 7px #f4f4f4;
+  &:nth-child(n + 3) {
+    margin-left: 0;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+  .post-cover {
+    width: 275px;
+  }
+  .post-info {
+    padding: 10px 14px;
+    h4 {
+        margin-bottom: 5px;
     }
+    a {
+        color: #fe5c71;
+        // color: #3bd174;
+    }
+    p {
+        margin-bottom: 0;
+    }
+  }
+  svg {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  span {
+    font-size: 12px;
+  }
 }
-

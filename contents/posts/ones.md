@@ -1,9 +1,9 @@
 ---
-title: first title
+title: Title 1
 slug: /one
 date: 2020-07-27
 cover:
-  img: ../photos/banner.jpg
+  img: ../photos/1.png
 tags:
   - CSS
   - HTML

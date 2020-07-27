@@ -3,7 +3,7 @@ title: Title 2
 slug: /two
 date: 2020-07-27
 cover:
-  img: ../photos/banner.jpg
+  img: ../photos/2.jpg
 tags:
   - Gatsby
   - JS

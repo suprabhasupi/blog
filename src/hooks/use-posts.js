@@ -8,6 +8,7 @@ const usePosts = () => {
             title
             slug
             tags
+            date(formatString: "MMM D, YYYY")
             cover {
               img {
                 sharp: childImageSharp {
@@ -46,6 +47,7 @@ const usePosts = () => {
       slug: post.frontmatter.slug,
       img: post.frontmatter.cover.img,
       tags: post.frontmatter.tags,
+      date: post.frontmatter.date,
       excerpt: post.excerpt,
     }
   })

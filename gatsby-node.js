@@ -7,7 +7,7 @@
 const path = require(`path`)
 // const fs = require(`fs`).promises
 
-const postTemplate = path.resolve(`./src/templates/page.js`)
+const postTemplate = path.resolve(`./src/templates/page/index.js`)
 
 const query = `
   {

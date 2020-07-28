@@ -2,12 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import Image from "gatsby-image"
 import { Calendar } from "styled-icons/boxicons-regular"
-// import { Tags } from "styled-icons/fa-solid"
 import "./style.scss"
 
-// const RedZap = styled(BookReader)`
-//   color: red;
-// `
 const PostTemplate = ({ post }) => {
   console.log("PostTemplate -> post", post)
   return (
@@ -23,9 +19,6 @@ const PostTemplate = ({ post }) => {
             </h4>
             <Calendar size="1em" />
             <span>{post.date}</span>
-            {/* <p><Tags size="1em" /> */}
-
-            {/* </p> */}
           </div>
         </div>
       ))}

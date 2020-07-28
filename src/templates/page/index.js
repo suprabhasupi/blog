@@ -1,6 +1,7 @@
 import React from "react"
-import {MDXRenderer} from 'gatsby-plugin-mdx'
-
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import Layout from "../../components/layout"
+import "./style.scss"
 // import { Link } from "gatsby"
 
 export const query = graphql`
@@ -15,15 +16,14 @@ export const query = graphql`
 `
 
 const PageTemplate = ({ data }) => {
-  // console.log("PostTemplate -> dataaaaa", data.mdx.body)
   return (
-    <>
-      <div>
+    <Layout>
+      <div className="page-wrapper">
         {/* <Link to={post.slug}> {post.title}</Link> */}
-        <p>Page Page Page %%%%%%%%%%%%%% {data.mdx?.frontmatter?.title}</p>
+        <h1>{data.mdx?.frontmatter?.title}</h1>
         <MDXRenderer>{data.mdx.body}</MDXRenderer>
       </div>
-    </>
+    </Layout>
   )
 }
 

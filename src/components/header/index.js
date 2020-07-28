@@ -20,9 +20,9 @@ const Header = () => (
       </li>
     </ul>
 
-    <div>
+    {/* <div>
       <input type="search" placeholder="Search" />
-    </div>
+    </div> */}
   </nav>
 )
 

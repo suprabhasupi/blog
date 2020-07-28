@@ -27,7 +27,6 @@ const IndexPage = ({ data }) => {
   const { tags } = allMdx
   const [activeTag, setActiveTag] = useQueryParam(`tag`)
   const posts = usePosts()
-  // console.log("IndexPage -> posts", posts)
 
   insertAllTag(tags, posts.length)
   const filteredPosts = filterPostsByTag(activeTag, posts)
@@ -63,10 +62,7 @@ const IndexPage = ({ data }) => {
           <PostTemplate post={filteredPosts} />
         </div>
       </div>
-      {/* {posts.map(post => {
-        //    return <pre>{JSON.stringify(post, null, 2)}</pre>
-        return <PostTemplate key={post.slug} post={post} />
-      })} */}
+      {/* return <pre>{JSON.stringify(post, null, 2)}</pre> */}
     </Layout>
   )
 }

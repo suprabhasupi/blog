@@ -6,6 +6,16 @@
     margin: 3rem 0;
     color: #fe5c71;
   }
+  h2, h3 {
+    margin: 2rem 0;
+    color: #314d92;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
   ul,
   ol {
     padding-left: 2rem;
@@ -18,8 +28,19 @@
     line-height: 1.4;
   }
   img {
-    width: 75%;
+    width: 80%;
     display: block;
-    margin: 2rem auto;
+    margin: auto;
+  }
+  a {
+    color: #3bd174;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    &:hover {
+      color: #fe5c71;
+    }
+  }
+  .banner {
+    width: 100%;
   }
 }

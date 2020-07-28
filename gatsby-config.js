@@ -23,6 +23,20 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `banners`,
+        path: `./contents/banners`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `./contents/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `./contents`
       },
     },

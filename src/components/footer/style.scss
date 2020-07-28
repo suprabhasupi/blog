@@ -26,6 +26,11 @@ footer {
   }
   a {
     color: white;
+    &:hover {
+      color: #86bf09;
+      transform: scale(1.3);
+      transition: 0.3s ease;
+    }
   }
   ul {
     list-style: none;

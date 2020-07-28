@@ -8,6 +8,8 @@ const usePosts = () => {
             title
             slug
             tags
+            priority
+            desc
             date(formatString: "MMM D, YYYY")
             cover {
               img {
@@ -48,6 +50,8 @@ const usePosts = () => {
       img: post.frontmatter.cover.img,
       tags: post.frontmatter.tags,
       date: post.frontmatter.date,
+      desc: post.frontmatter.desc,
+      priority: post.frontmatter.priority,
       excerpt: post.excerpt,
     }
   })

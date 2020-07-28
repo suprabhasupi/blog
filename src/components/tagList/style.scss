@@ -1,12 +1,16 @@
 .tag-list {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1em;
   display: flex;
   flex-direction: column;
   margin-left: 3rem;
+  margin-top: 1rem;
   button {
     margin: 0.4rem 0;
     font-size: 1em;
     outline: none;
-    border:none;
+    border: none;
     min-width: 115px;
     text-align: left;
     cursor: pointer;
@@ -27,6 +31,5 @@
       color: #fff;
       font-weight: 600;
     }
-    
   }
 }

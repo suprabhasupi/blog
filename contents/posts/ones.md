@@ -1,8 +1,10 @@
 ---
-title: Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1
+title: Title 1 
+# Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1 Title 1
 slug: /one
 date: 2020-07-27
-# Priority
+priority: 1
+desc: some small description will come here 
 # Old URL
 # Minute Read
 cover:

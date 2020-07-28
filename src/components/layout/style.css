@@ -620,6 +620,10 @@ pre tt:after {
   content: "";
 }
 
+.d-f {
+  display: flex;
+}
+
 ::selection {
   background-color: #3bd174;
 }

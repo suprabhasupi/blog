@@ -1,6 +1,8 @@
 .tag-list {
-  position: -webkit-sticky;
+  
   position: sticky;
+  position: -webkit-sticky;
+  align-self: flex-start;
   top: 1em;
   display: flex;
   flex-direction: column;

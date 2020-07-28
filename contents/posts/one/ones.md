@@ -8,13 +8,25 @@ desc: some small description will come here
 # Old URL
 # Minute Read
 cover:
-  img: ../../photos/1.png
+  img: ../../../photos/1.png
 tags:
   - CSS
   - HTML
 ---
+import abc from '../../images/a.jpg'
 
 The optional chaining operator (?.) permits reading the value of a property located deep within a chain of connected objects without having to expressly validate that each reference in the chain is valid. The ?. operator functions similarly to the . chaining operator, except that instead of causing an error if a reference is nullish (null or undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.
+
+
+<!-- [JAMstack](https://jamstack.org) -->
+
+<br />
+
+<!-- ![picsss]({abc}) -->
+
+<img src={abc} />
+
+
 
 ## The problem
 

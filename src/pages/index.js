@@ -41,7 +41,7 @@ const IndexPage = ({ data }) => {
         </div>
         <div className="new-post">
           {posts.map(post => (post.priority ? <Link to={post.slug}>
-            <div className='d-f'>
+            <div className='new-post-wrap'>
             <Image className="new-post-cover" fluid={post.img.sharp.fluid} />
             <div className="new-post-info">
               <h3>{post.title}</h3>

@@ -5,13 +5,11 @@
   border-radius: 14px;
   border: 1px solid #eaeaea;
   // box-shadow: 0px 0px 7px 7px #f4f4f4;
-  box-shadow: 
-  0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   &:hover {
     // transform: scale(1.05);
-    box-shadow: 
-    12px 12px 16px 0 #eaebec inset,
-    -8px -8px 12px 0 #ffffff inset;
+    box-shadow: 12px 12px 16px 0 #eaebec inset, -8px -8px 12px 0 #ffffff inset;
   }
   .post-cover {
     width: 280px;
@@ -22,14 +20,14 @@
   .post-info {
     padding: 10px 14px;
     h4 {
-        margin-bottom: 5px;
+      margin-bottom: 5px;
     }
     a {
-        color: #fe5c71;
-        // color: #3bd174;
+      color: #fe5c71;
+      // color: #3bd174;
     }
     p {
-        margin-bottom: 0;
+      margin-bottom: 0;
     }
   }
   svg {
@@ -38,5 +36,11 @@
   }
   span {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .post-wrapper {
+    margin: 1rem 0;
   }
 }

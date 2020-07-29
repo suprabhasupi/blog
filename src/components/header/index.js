@@ -13,11 +13,11 @@ const Header = () => (
         </a>
       </li>
       <li>
-        <Link to="/"> Home </Link>
+        <Link to="/"> Portfolio </Link>
       </li>
-      <li>
+      {/* <li>
         <Link to="/contact-us"> Contact Us </Link>
-      </li>
+      </li> */}
     </ul>
 
     {/* <div>

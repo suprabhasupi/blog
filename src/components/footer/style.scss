@@ -8,6 +8,7 @@ footer {
   .footer-info {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     width: 65rem;
     margin: auto;
@@ -41,5 +42,13 @@ footer {
     margin-left: 20px;
     color: white;
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    .footer-info {
+      width: 100%;
+    }
   }
 }

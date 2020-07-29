@@ -28,10 +28,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <div>
-        <main style={{
-          margin: `0 auto`,
-          width: `85%`
-        }}>{children}</main>
+        <main>{children}</main>
         
       </div>
       <Footer />

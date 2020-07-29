@@ -8,6 +8,9 @@
   flex-direction: column;
   margin-left: 3rem;
   margin-top: 1rem;
+  .toggle {
+    display: none;
+  }
   button {
     margin: 0.4rem 0;
     font-size: 1em;
@@ -32,6 +35,28 @@
       // background-color: #fe5c71;
       color: #fff;
       font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .tag-list {
+    position: relative;
+    margin: 0;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .toggle {
+      width: 100%;
+      margin-bottom: 1rem;
+      display: inline-table;
+      text-align: center;
+    }
+    button {
+      margin: 8px;
+      text-align: center;
     }
   }
 }

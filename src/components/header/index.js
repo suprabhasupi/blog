@@ -8,12 +8,12 @@ const Header = () => (
   <nav>
     <ul>
       <li>
-        <a href='https://www.suprabha.me/' target='_blank'>
+        <a href='/'>
           <img src={Logo} alt="suprabha's logo" className='logo'/>
         </a>
       </li>
       <li>
-        <Link to="/"> Portfolio </Link>
+        <Link to="https://www.suprabha.me/"> Portfolio </Link>
       </li>
       {/* <li>
         <Link to="/contact-us"> Contact Us </Link>

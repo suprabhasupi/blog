@@ -10,7 +10,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    width: 65rem;
+    width: 75%;
     margin: auto;
   }
   .social-icons-copyright {
@@ -38,16 +38,18 @@ footer {
     display: flex;
   }
   .copyright {
-    margin-top: 20px;
-    margin-left: 20px;
     color: white;
     font-size: 14px;
+    padding: 1rem 0;
+    width: 75%;
+    margin: auto;
+    padding-left: 1rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   footer {
-    .footer-info {
+    .footer-info, .copyright {
       width: 100%;
     }
   }

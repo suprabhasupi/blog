@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import "./style.scss"
 import FooterCurve from '../../images/footer-curve.svg'
-import { Blogger, Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium } from 'styled-icons/boxicons-logos'
+import { Blogger, Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium, Codepen } from 'styled-icons/boxicons-logos'
 
 const Footer = () => (
   <footer>
@@ -10,30 +10,30 @@ const Footer = () => (
     <div className='footer-info'>
     <div className='social-icons-copyright'>
       <div className='social-icons'>
-      <Link to="/"> <Github size="2em" /> </Link>
-      <Link to="/"> <Blogger size="2em" /> </Link>
-      <Link to="/"> <DevTo size="2em" /> </Link>
-      <Link to="/"> <Instagram size="2em" /> </Link>
-      <Link to="/"> <Linkedin size="2em" /> </Link>
-      <Link to="/"> <StackOverflow size="2em" /></Link>
-      <Link to="/"> <Twitter size="2em" /> </Link>
-      <Link to="/"> <Medium size="2em" /> </Link>
+      <a href="https://github.com/suprabhasupi"> <Github size="2em" /> </a>
+      <a href="https://codepen.io/suprabhasupi"> <Codepen size="2em" /> </a>
+      <a href="https://dev.to/suprabhasupi"> <DevTo size="2em" /> </a>
+      <a href="https://www.instagram.com/suprabhasupi6"> <Instagram size="2em" /> </a>
+      <a href="https://www.linkedin.com/in/suprabha-s"> <Linkedin size="2em" /> </a>
+      <a href="https://stackoverflow.com/users/8284147/suprabha"> <StackOverflow size="2em" /> </a>
+      <a href="https://twitter.com/suprabhasupi"> <Twitter size="2em" /> </a>
+      <a href="https://github.com/suprabhasupi"> <Medium size="2em" /> </a>
       </div>
-      <p className='copyright'>
-        © Copyright {new Date().getFullYear()},
-        <a href="https://www.suprabha.me/"> Suprabha</a>
-      </p>
     </div>
 
     <ul>
       <li>
-        <Link to="/"> Home </Link>
+        <Link to="https://www.suprabha.me/"> Portfolio </Link>
       </li>
       <li>
         <Link to="/contact-us"> Contact Us </Link>
       </li>
     </ul>
-      </div>    
+      </div>  
+      <p className='copyright'>
+        © Copyright {new Date().getFullYear()},
+        <a href="https://www.suprabha.me/"> Suprabha</a>
+      </p>  
   </footer>
 )
 

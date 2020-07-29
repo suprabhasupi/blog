@@ -1,0 +1,32 @@
+.conatact-us {
+  text-align: center;
+  h1 {
+    font-size: 3rem;
+    margin-top: 4rem;
+  }
+  p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .social-icons {
+    width: 32%;
+    margin: 3rem auto;
+    svg {
+      margin: 10px 20px;
+      color: #fe5c71;
+      &:hover {
+        color: #e2253d;
+        transform: scale(1.2);
+        transition: 0.2s ease-in;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .conatact-us {
+    .social-icons {
+      width: 100%;
+    }
+  }
+}

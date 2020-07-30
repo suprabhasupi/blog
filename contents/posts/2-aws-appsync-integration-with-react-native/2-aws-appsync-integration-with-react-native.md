@@ -1,13 +1,13 @@
 ---
 title: AWS AppSync integration with React Native(part-2)
-slug: /aws-appsync-integration-with-react-native-part-2
+slug: /2-AWS-appSync-integration-with-react-native-part-2
 date: 2018-09-15
 desc: AppSync automatically updates the data in web and mobile apps in real time.
 # Old URL
 # Minute Read
 cover:
-  img: ../../../photos/2-aws-appsync.png
-banner: ../../banners/2-aws-appsync.png
+  img: ../../../photos/2-aws-appsync-integration-with-react-native.png
+banner: ../../banners/2-aws-appsync-integration-with-react-native.png
 tags:
   - AWS
 ---

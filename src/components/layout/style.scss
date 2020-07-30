@@ -129,6 +129,25 @@ code {
   font-family: "Quicksand";
 }
 
+mark {
+  display: inline;
+  line-height: 0;
+  border-radius: .25em;
+  color: black;
+  background: url(../../images/highlight.svg);
+  background-repeat: no-repeat;
+  background-size: 125% 100%;
+  padding: 25px 0;
+  background-position: 48%;
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid #fe5c71;
+  padding-left: 1rem;
+  line-height: 1.8;
+}
+
 .d-f {
   display: flex;
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { JsSquare, Html5, ReactLogo, Vuejs } from "styled-icons/fa-brands"
+import { JsSquare, Html5, ReactLogo, Vuejs, Aws } from "styled-icons/fa-brands"
 import { Css3, BookReader } from "styled-icons/boxicons-logos"
 import {
   ToggleOff,
@@ -49,5 +49,6 @@ export const tagIcons = {
   React: ReactLogo,
   Vue: Vuejs,
   Gatsby: Gatsby,
+  AWS: Aws,
   Other: BookReader
 }

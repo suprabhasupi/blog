@@ -58,8 +58,8 @@ const IndexPage = ({ data }) => {
         <TagList {...{ tags, activeTag, setActiveTag }} />
         <div className="post-list">
           <PostTemplate post={filteredPosts} />
-          <PostTemplate post={filteredPosts} />
-          <PostTemplate post={filteredPosts} />
+          {/* <PostTemplate post={filteredPosts} />
+          <PostTemplate post={filteredPosts} /> */}
         </div>
       </div>
       {/* return <pre>{JSON.stringify(post, null, 2)}</pre> */}

@@ -32,6 +32,11 @@ pre {
     background: #005a9c;
     color: white;
   }
+  &.language-json::after {
+    content: "json";
+    background: #3472F9;
+    color: white;
+  }
   &.language-css::after {
     content: "css";
     background: #ff9800;

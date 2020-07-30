@@ -5,16 +5,18 @@
     font-size: 3rem;
     margin: 3rem 0;
     color: #fe5c71;
+    line-height: 1.2;
   }
   h2, h3 {
-    margin: 2rem 0;
+    margin: 2.5rem 0;
+    line-height: 1.4;
     color: #314d92;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   ul,
   ol {
@@ -42,6 +44,11 @@
   }
   .banner {
     width: 100%;
+    margin-bottom: 2rem;
+  }
+  .first-letter {
+    color: #fe5c71;
+    font-size: 2rem;
   }
 }
 

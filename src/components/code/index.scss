@@ -42,6 +42,11 @@ pre {
     background: #ff9800;
     color: white;
   }
+  &.language-sh::after {
+    content: "sh";
+    background: #eee;
+    color: black;
+  }
 }
 
 /* pre[class="language-js"]::after { */

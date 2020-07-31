@@ -6,8 +6,8 @@ desc: Build React Native apps over a single JavaScript codebase for Android and 
 # Old URL
 # Minute Read
 cover:
-  img: ../../../photos/3-adoptive-headers-using-css.png
-banner: ../../banners/1-aws-appsync-integration-with-react-native.png
+  img: ../../../photos/5-nativebase.png
+banner: ../../banners/5-nativebase.png
 tags:
   - React
 ---

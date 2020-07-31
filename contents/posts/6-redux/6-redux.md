@@ -1,13 +1,13 @@
 ---
 title: Redux
 slug: /6-redux
-date: 2019-02-07
+date: 2019-02-08
 desc: Build React Native apps over a single JavaScript codebase for Android and iOS
 # Old URL
 # Minute Read
 cover:
-  img: ../../../photos/3-adoptive-headers-using-css.png
-banner: ../../banners/1-aws-appsync-integration-with-react-native.png
+  img: ../../../photos/6-redux.jpg
+banner: ../../banners/6-redux.png
 tags:
   - React
 ---

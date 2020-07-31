@@ -6,8 +6,8 @@ desc: Build an react native app in short time using Native Base and Expo
 # Old URL
 # Minute Read
 cover:
-  img: ../../../photos/3-adoptive-headers-using-css.png
-banner: ../../banners/1-aws-appsync-integration-with-react-native.png
+  img: ../../../photos/4-react-native-app-using-expo.png
+banner: ../../banners/4-react-native-app-using-expo.png
 tags:
   - React
 ---
@@ -15,6 +15,7 @@ tags:
 import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 import FolderStructure from './1.png'
+import ExpoBuild from './2.png'
 
 For beginner, who wants to start working on APP, it’s really easy to start with EXPO. We can build an app in short time using Native Base and Expo. Xcode or Android Studio are not required. We just have to install another tool called expo.
 
@@ -107,6 +108,7 @@ Adding Expo Vector Icons to the project.
 Check out it <LinkPost href="https://ionicons.com/" name='here' />
 
 ## How to make Build?
+<ImgPost src={ExpoBuild} alt="expo build react native" />
 
 To make a build and export, you can use the below following commands:
 1. To build android APK:

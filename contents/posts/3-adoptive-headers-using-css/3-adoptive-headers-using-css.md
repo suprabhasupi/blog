@@ -14,6 +14,7 @@ tags:
 ---
 
 import ImgPost from '../../../src/components/imgPost'
+import LinkPost from '../../../src/components/linkPost'
 import Gif1 from './1.gif'
 import Gif2 from './2.gif'
 import Gif3 from './3.gif'
@@ -250,6 +251,6 @@ dd {
 
 ### CodePen
 
-1. [Horizontally header scroll](https://codepen.io/suprabhasupi/pen/VweoeKG)
-2. [Make a nav Menu Available from a fixed-position Header](https://codepen.io/suprabhasupi/pen/ZEQgQBL)
-3. [Sticky Header](https://codepen.io/suprabhasupi/pen/vYLoLyQ)
+1. <LinkPost href="https://codepen.io/suprabhasupi/pen/VweoeKG" name='Horizontally header scroll' />
+2. <LinkPost href="https://codepen.io/suprabhasupi/pen/ZEQgQBL" name='Make a nav Menu Available from a fixed-position Header' />
+3. <LinkPost href="https://codepen.io/suprabhasupi/pen/vYLoLyQ" name='Sticky Header' />

@@ -13,6 +13,7 @@ tags:
 ---
 
 import ImgPost from '../../../src/components/imgPost'
+import LinkPost from '../../../src/components/linkPost'
 import FolderStructure from './1.png'
 
 For beginner, who wants to start working on APP, it’s really easy to start with EXPO. We can build an app in short time using Native Base and Expo. Xcode or Android Studio are not required. We just have to install another tool called expo.
@@ -103,7 +104,7 @@ $ react-native log-ios
 ## Expo Vector Icons
 
 Adding Expo Vector Icons to the project. 
-Check out it <a href='https://ionicons.com/' target='_blank' rel="noopener noreferrer"> here</a>.
+Check out it <LinkPost href="https://ionicons.com/" name='here' />
 
 ## How to make Build?
 
@@ -127,4 +128,4 @@ To make a build and export, you can use the below following commands:
 
 ## Bug Log
 
-To log the bugs, you can use <a href='https://sentry.io/welcome/' target='_blank' rel="noopener noreferrer">sentry</a>.
+To log the bugs, you can use <LinkPost href="https://sentry.io/welcome/" name='sentry' />

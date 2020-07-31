@@ -1,6 +1,6 @@
 ---
 title: AWS AppSync integration with React Native(part-2)
-slug: /2-AWS-appSync-integration-with-react-native-part-2
+slug: /2-aws-appsync-integration-with-react-native-part-2
 date: 2018-09-15
 desc: AppSync automatically updates the data in web and mobile apps in real time.
 # Old URL
@@ -12,12 +12,14 @@ tags:
   - AWS
 ---
 
+import LinkPost from '../../../src/components/linkPost'
+
 <p><span class='first-letter'>I</span>n last blog Part 1, We have completed AppSync setup.
 </p>
 
 The next step is to link the data source that we have created to the app we are working on.
 
-- Go to the <a href='https://console.aws.amazon.com/appsync/home' target='_blank' rel="noopener noreferrer">AWS AppSync console</a>.
+- Go to the <LinkPost href='https://console.aws.amazon.com/appsync/home' name='AWS AppSync console' />.
 - Choose your API.
 - At the bottom of the page, choose React Native, and then download the `AppSync.js` file.
 - Place the AppSync.js file into your `./src` directory.
@@ -212,7 +214,7 @@ const mapDispatchToProps = (dispatch) => {
 };
 ```
 
-- Go to the <a href='https://console.aws.amazon.com/dynamodb/home' target='_blank' rel="noopener noreferrer">DynamoDB console</a> and check the table for your connection. You should see a representation of the current set of notes.
+- Go to the <LinkPost href='https://console.aws.amazon.com/dynamodb/home' name='DynamoDB console' /> and check the table for your connection. You should see a representation of the current set of notes.
 
 ### Offline access:
 

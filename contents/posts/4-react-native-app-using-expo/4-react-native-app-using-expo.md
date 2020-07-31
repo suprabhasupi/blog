@@ -12,6 +12,7 @@ tags:
   - React
 ---
 
+import ImgPost from '../../../src/components/imgPost'
 import FolderStructure from './1.png'
 
 For beginner, who wants to start working on APP, it’s really easy to start with EXPO. We can build an app in short time using Native Base and Expo. Xcode or Android Studio are not required. We just have to install another tool called expo.
@@ -51,12 +52,11 @@ We can setup the EXPO react native app in following steps:
 
 which will start the server.
 
-How my File structure for App looks like:
-<div>
-<img src={FolderStructure} class="output-img" alt='react native using expo folder structure' />
-</div>
+How my folder structure for App looks like:
 
-#### Understand `app.json` file:
+<ImgPost src={FolderStructure} alt="folder structure for expo react native" width="30" margin="10px" />
+
+#### Let's understand `app.json` file:
 
 In root we have app.json file which is configuration file for react native which contains many variables. 
 
@@ -73,7 +73,6 @@ In root we have app.json file which is configuration file for react native which
 - <mark>certificateHash</mark> will be generated from android Xcode.
 
 
-
 ## How to debug React Native
 
 To debug React native code, You need to install `react-devtools` 
@@ -85,7 +84,7 @@ $ npm install -g react-devtools
 Add the script for react-devtools in `package.json`
 
 ```json
-“react-devtools”: “react-devtools”
+"react-devtools": "react-devtools"
 ```
 
 Run at root of the project

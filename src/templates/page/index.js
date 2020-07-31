@@ -27,7 +27,7 @@ export const query = graphql`
 `
 
 const PageTemplate = ({ data }) => {
-  console.log("PageTemplate -> data", data)
+  // console.log("PageTemplate -> data", data)
   return (
     <Layout>
       <div className="page-wrapper">

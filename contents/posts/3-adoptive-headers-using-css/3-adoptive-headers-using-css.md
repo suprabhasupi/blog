@@ -13,6 +13,7 @@ tags:
   - CSS
 ---
 
+import ImgPost from '../../../src/components/imgPost'
 import Gif1 from './1.gif'
 import Gif2 from './2.gif'
 import Gif3 from './3.gif'
@@ -78,7 +79,7 @@ a {
 ```
 
 #### OUTPUT:
-<img src={Gif1} class='output-img' alt='horizonatlly scroll header' />
+<ImgPost src={Gif1} alt="horizonatlly scroll header" />
 
 ### 2. Make a Nav Menu Available from a fixed-position Header
 
@@ -184,8 +185,7 @@ $("nav").on("click", () => {
 ```
 
 #### OUTPUT:
-<img src={Gif2} class='output-img' alt='nav-menu header' />
-
+<ImgPost src={Gif2} alt="nav-menu header" />
 
 ### 3. Sticky Header
 
@@ -245,10 +245,10 @@ dd {
 ```
 
 #### OUTPUT:
-<img src={Gif3} class='output-img' alt='sticky-header' />
+<ImgPost src={Gif3} alt="sticky-header" />
 
 
-### <mark>CodePen</mark>
+### CodePen
 
 1. [Horizontally header scroll](https://codepen.io/suprabhasupi/pen/VweoeKG)
 2. [Make a nav Menu Available from a fixed-position Header](https://codepen.io/suprabhasupi/pen/ZEQgQBL)

@@ -1,0 +1,15 @@
+.img-post-wrapper {
+    width: 80%;
+    display: block;
+    margin: 1rem 0;
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .img-post-wrapper {
+        width: 100% !important;
+        margin: 2rem auto !important;
+    }
+}

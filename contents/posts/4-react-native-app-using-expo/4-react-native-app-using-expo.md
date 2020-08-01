@@ -17,11 +17,11 @@ import LinkPost from '../../../src/components/linkPost'
 import FolderStructure from './1.png'
 import ExpoBuild from './2.png'
 
-For beginner, who wants to start working on APP, it’s really easy to start with EXPO. We can build an app in short time using Native Base and Expo. Xcode or Android Studio are not required. We just have to install another tool called expo.
+<p><span class='first-letter'>F</span>or beginner, who wants to start working on APP, it’s really easy to start with EXPO. We can build an app in short time using Native Base and Expo. Xcode or Android Studio are not required. We just have to install another tool called expo.</p>
 
 This toolchain includes * over the air (OTA)** updates, easy build tooling and a lot of extra API’s on top of React-Native.
 
-## What is OTA:
+## What is OTA 🤔
 
 An OTA update does pretty much what it says. You send an update out, the user downloads it, and the app updates — much like the web. OTA updates are a strong point of React Native. Since we, the developers, usually write our logic in JavaScript (which doesn’t have to be compiled and installed) we can just send out a new JavaScript bundle, and once the user downloads `{“type”:”block”,”srcIndex”:0,”srcClientId”:”9e83ea28-f3a5-4f1c-be6e-7ddde7f002cc”,”srcRootClientId”:””}` it they have the updated logic! No waiting required.
 
@@ -39,7 +39,7 @@ An OTA update does pretty much what it says. You send an update out, the user do
 - If you need to keep your app size extremely lean, Expo may not be the best choice
 - Must stick with supported SDK’s
 
-### SETUP
+### SETUP 🖥
 
 We can setup the EXPO react native app in following steps:
 
@@ -75,7 +75,7 @@ In root we have app.json file which is configuration file for react native which
 - <mark>certificateHash</mark> will be generated from android Xcode.
 
 
-## How to debug React Native
+## How to debug React Native 😕
 
 To debug React native code, You need to install `react-devtools` 
 
@@ -94,7 +94,7 @@ Run at root of the project
 $ npm run react-devtools
 ```
 
-## Access console log in React Native:
+## Access console log in React Native
 
 Expo gives the script which will show the console in react native if there is any.
 
@@ -102,12 +102,13 @@ Expo gives the script which will show the console in react native if there is an
 $ react-native log-ios
 ```
 
-## Expo Vector Icons
+## Expo Vector Icons ✎
 
 Adding Expo Vector Icons to the project. 
 Check out it <LinkPost href="https://ionicons.com/" name='here' />
 
-## How to make Build?
+## How to make Build? 🏘
+
 <ImgPost src={ExpoBuild} alt="expo build react native" />
 
 To make a build and export, you can use the below following commands:
@@ -128,6 +129,6 @@ To make a build and export, you can use the below following commands:
     [exp] APK: https://HOST/yourapp.apk
       ```
 
-## Bug Log
+## Bug Log ⧮
 
 To log the bugs, you can use <LinkPost href="https://sentry.io/welcome/" name='sentry' />

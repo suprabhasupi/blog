@@ -14,11 +14,11 @@ tags:
 
 import LinkPost from '../../../src/components/linkPost'
 
-It’s an open source framework to build React Native apps over a single JavaScript codebase for Android and iOS. So for make it easier, I am using Native Base. This helps you to build world-class application experiences on native platforms using pre built component for both Andriod and iOS.
+<p><span class='first-letter'>I</span>t’s an open source framework to build React Native apps over a single JavaScript codebase for Android and iOS. So for make it easier, I am using Native Base. This helps you to build world-class application experiences on native platforms using pre built component for both Andriod and iOS.</p>
 
 Without Native base, you have to write separate component for Android and iOS manually. For Beginner, NativeBase prove to be huge time saver.
 
-## Integrating Native Base to App:
+## Integrating Native Base to App 🔗
 
 - Install Native Base
 
@@ -30,7 +30,7 @@ Now you can use the native-base component easily.
 
 To know more about native base and it’s components please check: <LinkPost href='https://docs.nativebase.io/' name='https://docs.nativebase.io/' />
 
-## Font Icons:
+## Font Icons ✎
 
 If you want to use font icons in app, then you have to use NativeBase custom fonts that can be loaded using loadAsync function.
 

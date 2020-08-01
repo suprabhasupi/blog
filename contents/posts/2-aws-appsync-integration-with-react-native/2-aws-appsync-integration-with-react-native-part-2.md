@@ -14,7 +14,7 @@ tags:
 
 import LinkPost from '../../../src/components/linkPost'
 
-<p><span class='first-letter'>I</span>n last blog Part 1, We have completed AppSync setup.
+<p><span class='first-letter'>I</span>n last blog <LinkPost href='/1-aws-appsync-integration-with-react-native-part-1' name='Part 1' />, We have completed AppSync setup.
 </p>
 
 The next step is to link the data source that we have created to the app we are working on.
@@ -216,7 +216,7 @@ const mapDispatchToProps = (dispatch) => {
 
 - Go to the <LinkPost href='https://console.aws.amazon.com/dynamodb/home' name='DynamoDB console' /> and check the table for your connection. You should see a representation of the current set of notes.
 
-### Offline access:
+### Offline access 🤷🏻‍♀️
 
 We can move from online access to offline access by changing the fetchPolicy within the operations block of ./src/graphql.js from ‘network-only’ (which is to say – it always query the backend server) to one of the other possible options:
 

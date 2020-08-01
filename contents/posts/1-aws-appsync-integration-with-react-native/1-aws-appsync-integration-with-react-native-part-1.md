@@ -13,6 +13,8 @@ tags:
   - AWS
 ---
 
+import LinkPost from '../../../src/components/linkPost'
+
 <p><span class='first-letter'>A</span>ppSync automatically updates the data in web and mobile apps in real time, and updates data for offline users as soon as they reconnect. We can connect the AppSync with React Native to store data offline.</p>
 
 It uses GraphQL, an open standard query language that makes it easy for applications to request data from the cloud.
@@ -34,7 +36,7 @@ Before We get started, we need to set up our development system for developing R
 - React Native command line interface (CLI)
   - Install with npm install -g react-native-cli
 
-## Configure AppSync. (Part-1)
+## Configure AppSync. (Part-1) 🔗
 
 I have integrated AppSync into my project. We can integrate AppSync with following steps:
 
@@ -77,7 +79,7 @@ Now, We need to create resolver for each operation (query/mutation). And attach 
 
 Below there are some resolver for those operations:
 
-## MUTATIONS:
+## MUTATIONS
 
 ** 1. For PutNote template: **
   
@@ -132,7 +134,7 @@ For the response template, Configure the response mapping template.
 $util.toJson($ctx.result)
 ```
 
-## QUERY:
+## QUERY
 
 ** 1. For GetSingleNote template: **
   
@@ -224,7 +226,7 @@ query GetPost1 {
 }
 ```
 
-In last but not least, We are done with setting up AppSync. In Part 2, We are going to integrate AppSync to our app.
+In last but not least, we are done with setting up AppSync. In <LinkPost href='/2-aws-appsync-integration-with-react-native-part-2' name='Part 2' />, We are going to integrate AppSync to our app. 😎
 
 
 

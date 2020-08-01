@@ -27,10 +27,9 @@ import Gif3 from './3.gif'
 
 ### 1. Horizontally header scroll
 
-
 The links are wrapping onto a second line.
 
-** What if we don’t want to wrap links? **
+** What if we don’t want to wrap links? 🤔 **
 
 Let’s target all the links in our nav and make sure it does not wrap. To do that we will apply `white-space: nowrap;` to `nav`. So, the line will be on the first line and does not wrap.
 
@@ -82,7 +81,7 @@ a {
 #### OUTPUT:
 <ImgPost src={Gif1} alt="horizonatlly scroll header" />
 
-### 2. Make a Nav Menu Available from a fixed-position Header
+### 2. Make a Nav Menu Available from a fixed-position Header ⏣
 
 To create nav Menu with fixed header: (using jQuery)
 
@@ -188,7 +187,7 @@ $("nav").on("click", () => {
 #### OUTPUT:
 <ImgPost src={Gif2} alt="nav-menu header" />
 
-### 3. Sticky Header
+### 3. Sticky Header 🔥
 
 Here we are taking an example of `<dt>`, `<dd>` tag to explain the sticky header. Position sticky will manage the `<dt>` to place at the top of position as sticky. To do that, we need to add `position: sticky; position: -webkit-sticky` (to target webkit browser) to `<dt>` tag.
 
@@ -249,7 +248,7 @@ dd {
 <ImgPost src={Gif3} alt="sticky-header" />
 
 
-### CodePen
+### CodePen 
 
 1. <LinkPost href="https://codepen.io/suprabhasupi/pen/VweoeKG" name='Horizontally header scroll' />
 2. <LinkPost href="https://codepen.io/suprabhasupi/pen/ZEQgQBL" name='Make a nav Menu Available from a fixed-position Header' />

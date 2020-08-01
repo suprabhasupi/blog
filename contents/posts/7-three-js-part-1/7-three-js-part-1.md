@@ -6,8 +6,8 @@ desc: Three.js provides a lot of functionality that makes it very easy to develo
 # Old URL
 # Minute Read
 cover:
-  img: ../../../photos/5-nativebase.png
-banner: ../../banners/5-nativebase.png
+  img: ../../../photos/7-three-js-part-1.png
+banner: ../../banners/7-three-js-part-1.png
 tags:
   - JS
 ---
@@ -21,7 +21,7 @@ import Cube from './1.gif'
 
 We will be covering it in two parts:
 1. <LinkPost href='/7-three-js-part-1' name='Basics of Three.js' />
-2. <LinkPost href='/8-three-js-part-2' name='Introducing Meshes and Geometry' />
+2. <LinkPost href='/12-three-js-part-2' name='Introducing Meshes and Geometry' />
 
 ## 1️⃣ Basics of <LinkPost href='https://threejs.org/' name='Three.js' />
 

@@ -14,7 +14,7 @@ tags:
 
 import LinkPost from '../../../src/components/linkPost'
 
-Is there anything more frustrating to find this path “../../../../../components/location” in Javascript? 🤔
+<p><span class='first-letter'>I</span>s there anything more frustrating to find this path “../../../../../components/location” in Javascript? 🤔</p>
 
 What if we can use “/components/location” from any where in the code base? 😎
 

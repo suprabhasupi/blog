@@ -17,7 +17,7 @@ import LinkPost from '../../../src/components/linkPost'
 
 ### next and go in Form don’t work (React Native and native-base) 😋
 
-When using native-base’s form to handle user’s username and password. When I press next or go from keyboard, it doesn’t move cursor to the next or doesn’t submit the inputs.
+<p><span class='first-letter'>W</span>hen using native-base’s form to handle user’s username and password. When I press next or go from keyboard, it doesn’t move cursor to the next or doesn’t submit the inputs.</p>
 
 I was getting error as:
 

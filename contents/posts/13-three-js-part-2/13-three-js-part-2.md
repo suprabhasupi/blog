@@ -21,7 +21,7 @@ import TrianglesType from './4.png'
 
 ## Introducing Meshes and Geometry
 
-<mark>Meshes:</mark>
+<mark><span class='first-letter'>M</span>eshes:</mark>
 Meshes are made up of two different things:
 
 1. Geometry
@@ -317,7 +317,7 @@ Import GeometryExporter in `index.html`
 
 
 
-## Reference ※
+## Reference 🧐
 
 - <LinkPost href='https://app.pluralsight.com/player?course=webgl-threejs-fundamentals&author=alex-mackey&name=webgl-threejs-fundamentals-m3&clip=3&mode=live' name='Pluralsight webgl threejs' />
 

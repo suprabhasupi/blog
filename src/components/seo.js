@@ -24,7 +24,7 @@ function SEO({ description, lang, meta, title, cardImg }) {
       }
     `
   )
-
+  const originUrl = `http://sup-testing.s3-website.ap-south-1.amazonaws.com`
   const metaDescription = description || site.siteMetadata.description
   return (
     <Helmet
@@ -48,7 +48,7 @@ function SEO({ description, lang, meta, title, cardImg }) {
         },
         {
           property: `og:image`,
-          content: cardImg,
+          content: originUrl + cardImg,
         },
         {
           property: `og:type`,
@@ -56,11 +56,11 @@ function SEO({ description, lang, meta, title, cardImg }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:image`,
-          content: cardImg,
+          content: originUrl + cardImg,
         },
         {
           name: `twitter:creator`,

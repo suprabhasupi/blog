@@ -3,6 +3,14 @@ module.exports = {
     title: `Suprabha`,
     description: `A UI/UX Developer and Gamer who belives in writing simple stupid straight forward code and loves gaming 😋`,
     author: `@suprabhasupi`,
+    'twitter:card': 'summary',
+    'twitter:creator': '@suprabhasupi',
+    'twitter:image': './src/images/logo1.png',
+    'twitter:title': 'Suprabha Blog',
+    'twitter:description': 'Weekly sharing new JS, HTML, CSS articles 🔥',
+    'og:title': 'Suprabha Blog',
+    'og:description': 'Weekly sharing new JS, HTML, CSS articles 🔥',
+    'og:image': './src/images/logo1.png'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

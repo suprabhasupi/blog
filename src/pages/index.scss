@@ -28,6 +28,18 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 3rem 0 4rem;
+  .follow {
+    margin: 1rem 0 2rem;
+    svg {
+      margin-right: 1rem;
+      color: #fe5c71;
+      &:hover {
+        color: #fb1d3a;
+        transform: scale(1.2);
+        transition: 0.3s ease;
+      }
+    }
+  }
   .new-post {
     width: 60%;
     border: 1px solid #ccc;
@@ -74,7 +86,10 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  .post-list {
+    justify-content: space-between;
+  }
   .blog-pg {
     .new-post {
       width: 100%;

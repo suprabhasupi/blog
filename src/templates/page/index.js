@@ -31,10 +31,10 @@ const PageTemplate = ({ data }) => {
   return (
     <Layout>
       <div className="page-wrapper">
-      <h1>{data.mdx?.frontmatter?.title}</h1>
-      <div className='banner'>
-      <Image className="new-post-cover" fluid={data.mdx.frontmatter.banner.sharp.fluid} />
-      </div>
+        <h1>{data.mdx?.frontmatter?.title}</h1>
+        <div className='banner'>
+          <Image className="new-post-cover" fluid={data.mdx.frontmatter.banner.sharp.fluid} />
+        </div>
         {/* <Link to={post.slug}> {post.title}</Link> */}
         
         <MDXRenderer>{data.mdx.body}</MDXRenderer>

@@ -11,6 +11,7 @@ import PostTemplate from "../templates/post"
 import usePosts from "../hooks/use-posts"
 import TagList from "../components/tagList"
 import { Calendar } from "styled-icons/boxicons-regular"
+import { Twitter, Instagram } from 'styled-icons/boxicons-logos'
 
 import { useQueryParam } from "../hooks/useQueryParam.js"
 
@@ -32,12 +33,17 @@ const IndexPage = ({ data }) => {
   const filteredPosts = filterPostsByTag(activeTag, posts)
   return (
     <Layout>
-      <SEO title="Blog" description="List of HTML, CSS, Javascript articles in Suprabha's Blog" />
+      <SEO title="Blog" description="List of HTML, CSS, Javascript articles in Suprabha Blog" />
 
       <div className="blog-pg">
         <div>
-          <h1>Suprabha's Blog</h1>
-          <p>Weekly sharing new JS, HTML, CSS articles!</p>
+          <h1>Suprabha Blog</h1>
+          <p>Weekly sharing new <mark>JS, HTML, CSS</mark> articles! 🔥</p>
+          <b>Follow here for interesting news:  </b>
+          <div className='follow'>
+            <a href='https://twitter.com/suprabhasupi'><Twitter size='3em' /></a>
+            <a href='https://instagram.com/suprabhasupi'><Instagram size='3em' /></a>
+          </div>
         </div>
         <div className="new-post">
           {posts.map(post => (post.priority ? <Link to={post.slug}>

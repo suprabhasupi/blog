@@ -27,7 +27,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 3rem 0 4rem;
+  margin: 6rem 0;
   .follow {
     margin: 1rem 0 2rem;
     svg {
@@ -50,7 +50,7 @@ h3 {
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
     border-radius: 14px;
     &:hover {
-      box-shadow: 12px 12px 16px 0 #d3e0d6 inset, -8px -8px 12px 0 #5dcd86 inset;
+      // box-shadow: 12px 12px 16px 0 #d3e0d6 inset, -8px -8px 12px 0 #5dcd86 inset;
     }
     &::after {
       content: "NEW";

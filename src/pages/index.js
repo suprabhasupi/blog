@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => {
         <div>
           <h1>Suprabha Blog</h1>
           <p>Weekly sharing new <mark>JS, HTML, CSS</mark> articles! 🔥</p>
-          <b>Follow here for interesting news:  </b>
+          <b>Follow @suprabhasupi for new ideas every day 😍 </b>
           <div className='follow'>
             <a href='https://twitter.com/suprabhasupi'><Twitter size='3em' /></a>
             <a href='https://instagram.com/suprabhasupi'><Instagram size='3em' /></a>

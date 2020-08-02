@@ -46,6 +46,7 @@ exports.onCreateNode = async ({ node }) => {
     node.internal.type === `Mdx` &&
     node.fileAbsolutePath.includes(`contents/posts`)
   ) {
-    node.frontmatter.slug = `/blog` + node.frontmatter.slug
+    node.frontmatter.slug = node.frontmatter.slug
+    // node.frontmatter.slug = `/blog` + node.frontmatter.slug
   }
 }

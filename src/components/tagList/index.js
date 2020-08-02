@@ -28,10 +28,10 @@ export default function TagList({ tags, activeTag = `All`, setActiveTag }) {
             className={
               activeTag === title || (title === `All` && !activeTag)
                 ? "active"
-                : ""
+                : null
             }
             key={title}
-            onClick={() => setActiveTag(title === `All` ? null : title)}
+            onClick={() => setActiveTag(title === `All` ? '' : title)}
           >
             {TagIcon && <TagIcon size="1em" />}
             &nbsp; {title} ({count})

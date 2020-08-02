@@ -5,7 +5,7 @@ import { Calendar } from "styled-icons/boxicons-regular"
 import "./style.scss"
 
 const PostTemplate = ({ post }) => {
-  console.log("PostTemplate -> post", post)
+  // console.log("PostTemplate -> post", post)
   return (
     <>
       {post.map(post => (

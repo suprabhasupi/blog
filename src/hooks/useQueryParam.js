@@ -1,21 +1,21 @@
 import { useState } from 'react'
 
 const handleParam = (key, value, options = {}) => {
-  const location = window ? window.location : location
-  const history = window ? window.history : history
-  if (typeof location !== `undefined`) {
+  const globalWindow = typeof window !== `undefined` && window
+  // const history = typeof window !== `undefined` ? window.history : history
+  if (typeof globalWindow.location !== `undefined`) {
     // historyMethod: push or replace (https://developer.mozilla.org/docs/Web/API/History)
     const { historyMethod = `replace`, nullDeletes = true } = options
-    const params = new URLSearchParams(location.search)
+    const params = new URLSearchParams(globalWindow.location.search)
 
     if (value === undefined) value = params.get(key)
     else if (value === null && nullDeletes) params.delete(key)
     else params.set(key, value)
 
-    let target = location.pathname + `?` + params.toString()
+    let target = globalWindow.location.pathname + `?` + params.toString()
     target = target.replace(/\/?\?$/, ``) // remove empty search string
 
-    history[historyMethod + `State`]({ path: value }, ``, target)
+    globalWindow.history[historyMethod + `State`]({ path: value }, ``, target)
 
     return value
   }

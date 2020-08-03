@@ -31,6 +31,7 @@ $ npm install babel-plugin-module-resolver
 Once we’ve installed, open up the project’s and find `.babelrc` file, If there is no `.babelrc` file then create the file `.babelrc` in root. Under the plugins key, add the below snippet:-
 
 <u>.babelrc</u>
+
 ```js
 {
   "presets": ["react-native"],

@@ -80,7 +80,7 @@ Now we can create cube using Three.js by following steps:
 
 Import `Three.js` from <LinkPost href='https://cdnjs.cloudflare.com/ajax/libs/three.js/101/three.js' name='here' /> into index.html file.
 
-*index.html:*
+<u>index.html:</u>
 
 ```html
 <!DOCTYPE html>
@@ -98,7 +98,7 @@ Import `Three.js` from <LinkPost href='https://cdnjs.cloudflare.com/ajax/libs/th
 ```
 
 
-*app.js:*
+<u>app.js:</u>
 
 ```js
 var exam = (function() {

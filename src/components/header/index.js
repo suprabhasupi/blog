@@ -13,7 +13,7 @@ const Header = () => (
         </a>
       </li>
       <li>
-        <Link to="https://www.suprabha.me/"> Portfolio </Link>
+        <Link to="https://suprabha.me/"> Portfolio </Link>
       </li>
       {/* <li>
         <Link to="/contact-us"> Contact Us </Link>

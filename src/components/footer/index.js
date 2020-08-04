@@ -23,7 +23,7 @@ const Footer = () => (
 
     <ul>
       <li>
-        <Link to="https://www.suprabha.me/"> Portfolio </Link>
+        <Link to="https://suprabha.me/"> Portfolio </Link>
       </li>
       <li>
         <Link to="/contact-us"> Contact Us </Link>
@@ -32,7 +32,7 @@ const Footer = () => (
       </div>  
       <p className='copyright'>
         © Copyright {new Date().getFullYear()},
-        <a href="https://www.suprabha.me/"> Suprabha</a>
+        <a href="https://suprabha.me/"> Suprabha</a>
       </p>  
   </footer>
 )

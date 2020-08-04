@@ -10,7 +10,7 @@ module.exports = {
     'twitter:description': 'Weekly sharing new JS, HTML, CSS articles 🔥',
     'og:title': 'Suprabha Blog',
     'og:description': 'Weekly sharing new JS, HTML, CSS articles 🔥',
-    'og:image': 'https://www.suprabha.me/static/img/suprabha-logo.83b48cf.png'
+    'og:image': 'https://suprabha.me/static/img/suprabha-logo.83b48cf.png'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

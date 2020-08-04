@@ -24,7 +24,8 @@ function SEO({ description, lang, meta, title, cardImg }) {
       }
     `
   )
-  const originUrl = `http://sup-testing.s3-website.ap-south-1.amazonaws.com`
+  const originUrl = `blog.suprabha.me`
+  // const originUrl = `http://sup-testing.s3-website.ap-south-1.amazonaws.com`
   const metaDescription = description || site.siteMetadata.description
   return (
     <Helmet

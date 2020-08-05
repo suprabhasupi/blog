@@ -19,13 +19,15 @@ function SEO({ description, lang, meta, title, cardImg }) {
             title
             description
             author
+            twitter_image
           }
         }
       }
     `
   )
   const originUrl = `blog.suprabha.me`
-  const cardImageURL = originUrl + cardImg
+  let imgUrl = cardImg || site.siteMetadata.twitter_image
+  const cardImageURL = originUrl + imgUrl
   // const originUrl = `http://sup-testing.s3-website.ap-south-1.amazonaws.com`
   const metaDescription = description || site.siteMetadata.description
   return (

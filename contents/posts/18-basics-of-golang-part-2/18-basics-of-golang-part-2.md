@@ -20,7 +20,7 @@ import Packages from './3-packages.png'
 import UnitTesting from './4-unit-testing.png'
 import Structs from './5-structs.jpg'
 
-We covered basics concept in <LinkPost href='/17-basics-of-golang-part-1' name='Part-1' />. If you have not read the <LinkPost href='/17-basics-of-golang-part-1' name='Part-1' />, I would recommend to check it out first as creating variable, all control statements and data types are added into the previous part of <LinkPost href='/17-basics-of-golang-part-1' name='Basics Of GoLang Part-1' />
+<p><span class='first-letter'>W</span>e covered basics concept in <LinkPost href='/17-basics-of-golang-part-1' name='Part-1' />. If you have not read the <LinkPost href='/17-basics-of-golang-part-1' name='Part-1' />, I would recommend to check it out first as creating variable, all control statements and data types are added into the previous part of <LinkPost href='/17-basics-of-golang-part-1' name='Basics Of GoLang Part-1' /></p>
 
 Now we will continue with the following topics:
 

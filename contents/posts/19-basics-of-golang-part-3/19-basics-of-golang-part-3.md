@@ -20,7 +20,7 @@ import PanicDefer from './3-panic-defer.png'
 import Method from './4-method.png'
 import Interface from './5-interface.png'
 
-We covered many topics in <LinkPost href='/17-basics-of-golang-part-1' name='Part-1' /> and <LinkPost href='/18-basics-of-golang-part-2' name='Part-2' />. If you have not read those parts, I would recommend to check it out first as creating variable, all control statements and data types are added into the first blog for <LinkPost href='/17-basics-of-golang-part-1' name='Basics Of GoLang Part-1' />, and Functions, Array, Toolkit, Packages, Unit Testing and Structs has explained in <LinkPost href='/18-basics-of-golang-part-2' name='Basics Of GoLang Part-2' />.
+<p><span class='first-letter'>W</span>e covered many topics in <LinkPost href='/17-basics-of-golang-part-1' name='Part-1' /> and <LinkPost href='/18-basics-of-golang-part-2' name='Part-2' />. If you have not read those parts, I would recommend to check it out first as creating variable, all control statements and data types are added into the first blog for <LinkPost href='/17-basics-of-golang-part-1' name='Basics Of GoLang Part-1' />, and Functions, Array, Toolkit, Packages, Unit Testing and Structs has explained in <LinkPost href='/18-basics-of-golang-part-2' name='Basics Of GoLang Part-2' />.</p>
 
 We will continue with the following topics in this section:
 

@@ -21,7 +21,7 @@ import ControlStatement from './4-control-statement.png'
 import Switch from './5-switch.jpg'
 import ForLoop from './6-for.png'
 
-I am working at <LinkPost href='https://www.gojek.com/' name='Gojek' /> as a Frontend Engineer, and using GO for backend and wanted to learn something new, So started looking forward to exploring some new technology.
+<p><span class='first-letter'>I</span> am working at <LinkPost href='https://www.gojek.com/' name='Gojek' /> as a Frontend Engineer, and using GO for backend and wanted to learn something new, So started looking forward to exploring some new technology.</p>
 
 ### Why I picked GO❓ 🤔
 

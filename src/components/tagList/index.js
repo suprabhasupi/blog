@@ -7,7 +7,7 @@ import {
   Tags
 } from 'styled-icons/fa-solid'
 import { Cpu } from 'styled-icons/feather'
-import { Webpack } from 'styled-icons/simple-icons'
+import { Webpack, Go } from 'styled-icons/simple-icons'
 import { Gatsby } from "styled-icons/remix-line"
 import "./style.scss"
 
@@ -51,6 +51,7 @@ export const tagIcons = {
   Vue: Vuejs,
   Gatsby: Gatsby,
   AWS: Aws,
+  GO: Go,
   Webpack: Webpack,
   Other: BookReader
 }

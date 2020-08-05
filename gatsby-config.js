@@ -59,7 +59,7 @@ module.exports = {
         background_color: `#314d92`,
         theme_color: `#314d92`,
         display: `minimal-ui`,
-        icon: `https://suprabha-images.s3.ap-south-1.amazonaws.com/logo.png`, // This path is relative to the root of the site.
+        icon: `./src/images/logo1.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`

@@ -17,6 +17,11 @@ pre {
     background: #f7df1e;
     color: black;
   }
+  &.language-go::after {
+    content: "go";
+    background: #8BD9F8;
+    color: black;
+  }
   &.language-js::after {
     content: "js";
     background: #f7df1e;

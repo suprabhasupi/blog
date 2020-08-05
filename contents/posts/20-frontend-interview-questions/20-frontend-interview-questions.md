@@ -2,7 +2,7 @@
 title: Frontend Interview Questions
 slug: /20-frontend-interview-questions
 date: 2020-05-28
-desc: Understand Web servers, external API, ConCurrency and Channel in GO
+desc: Frequently asked Frontend interview questions from different interviews for Frontend/web developer
 # Old URL
 # Minute Read
 cover:

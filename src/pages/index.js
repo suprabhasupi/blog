@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => {
   const filteredPosts = filterPostsByTag(activeTag, posts)
   return (
     <Layout>
-      <SEO title="Blog" description="List of HTML, CSS, Javascript articles in Suprabha Blog" />
+      <SEO title="Suprabha" description="Weekly sharing new JS, HTML, CSS articles and focus on journey of frontend engineer 🔥" />
 
       <div className="blog-pg">
         <div>

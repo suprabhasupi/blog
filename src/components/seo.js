@@ -25,6 +25,7 @@ function SEO({ description, lang, meta, title, cardImg }) {
     `
   )
   const originUrl = `blog.suprabha.me`
+  const cardImageURL = originUrl + cardImg
   // const originUrl = `http://sup-testing.s3-website.ap-south-1.amazonaws.com`
   const metaDescription = description || site.siteMetadata.description
   return (
@@ -49,11 +50,19 @@ function SEO({ description, lang, meta, title, cardImg }) {
         },
         {
           property: `og:image`,
-          content: originUrl + cardImg,
+          content: cardImageURL,
         },
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image:width`,
+          content: `1270`,
+        },
+        {
+          property: `og:image:height`,
+          content: `675`,
         },
         {
           name: `twitter:card`,
@@ -61,7 +70,7 @@ function SEO({ description, lang, meta, title, cardImg }) {
         },
         {
           name: `twitter:image`,
-          content: originUrl + cardImg,
+          content: cardImageURL,
         },
         {
           name: `twitter:creator`,

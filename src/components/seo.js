@@ -26,8 +26,7 @@ function SEO({ description, lang, meta, title, cardImg }) {
     `
   )
   const originUrl = `blog.suprabha.me`
-  let imgUrl = cardImg || site.siteMetadata.twitter_image
-  const cardImageURL = originUrl + imgUrl
+  const cardImageURL = cardImg ? originUrl + cardImg : site.siteMetadata.twitter_image
   // const originUrl = `http://sup-testing.s3-website.ap-south-1.amazonaws.com`
   const metaDescription = description || site.siteMetadata.description
   return (

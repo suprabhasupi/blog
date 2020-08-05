@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 // import SEO from "../components/seo"
-import { Blogger, Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium, Codepen } from 'styled-icons/boxicons-logos'
+import { Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium, Codepen } from 'styled-icons/boxicons-logos'
 import './style.scss'
 
 

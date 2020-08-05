@@ -2,7 +2,8 @@ import { Link } from "gatsby"
 import React from "react"
 import "./style.scss"
 import FooterCurve from '../../images/footer-curve.svg'
-import { Blogger, Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium, Codepen } from 'styled-icons/boxicons-logos'
+import TreeBottom from '../../images/tree_bottom.svg'
+import { Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium, Codepen } from 'styled-icons/boxicons-logos'
 
 const Footer = () => (
   <footer>
@@ -30,6 +31,7 @@ const Footer = () => (
       </li>
     </ul>
       </div>  
+      <img src={TreeBottom} className='tree-bottom' />
       <p className='copyright'>
         © Copyright {new Date().getFullYear()},
         <a href="https://suprabha.me/"> Suprabha</a>

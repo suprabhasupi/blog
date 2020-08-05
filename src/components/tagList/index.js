@@ -18,10 +18,10 @@ export default function TagList({ tags, activeTag = `All`, setActiveTag }) {
     <div className="tag-list">
       <div className="toggle">
         <h3><Tags size="1em" /> Tags</h3>
-      {toggleOpen == 'true' ? <ToggleOff size='2em' onClick={() => setToggleOpen("false")}/> : <ToggleOn size='2em' onClick={() => setToggleOpen("true")}/>}
+      {toggleOpen === 'true' ? <ToggleOff size='2em' onClick={() => setToggleOpen("false")}/> : <ToggleOn size='2em' onClick={() => setToggleOpen("true")}/>}
       </div>
       
-      {toggleOpen != 'true' ? tags.map(({ title, count }) => {
+      {toggleOpen !== 'true' ? tags.map(({ title, count }) => {
         const TagIcon = tagIcons[title]
         return (
           <button

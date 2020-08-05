@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Suprabha`,
+    title: `Suprabha's Blog`,
     description: `Weekly sharing new JS, HTML, CSS articles and focus on journey of frontend engineer 🔥`,
     author: `@suprabhasupi`,
     'twitter:card': 'summary_large_image',
     'twitter:creator': '@suprabhasupi',
     'twitter:image': 'https://suprabha-images.s3.ap-south-1.amazonaws.com/twitter-card.png',
-    'twitter:title': 'Suprabha',
+    'twitter:title': `Suprabha's Blog`,
     'twitter:description': 'Weekly sharing new JS, HTML, CSS articles and focus on journey of frontend engineer 🔥',
-    'og:title': 'Suprabha',
+    'og:title': `Suprabha's Blog`,
     'og:description': 'Weekly sharing new JS, HTML, CSS articles and focus on journey of frontend engineer 🔥',
     'og:image': 'https://suprabha-images.s3.ap-south-1.amazonaws.com/twitter-card.png'
   },
@@ -53,13 +53,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Suprabha Blog`,
+        name: `Suprabha's Blog`,
         short_name: `Suprabha`,
         start_url: `/`,
         background_color: `#314d92`,
         theme_color: `#314d92`,
         display: `minimal-ui`,
         icon: `./src/images/logo1.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-75872060-4",
       },
     },
     `gatsby-plugin-sass`

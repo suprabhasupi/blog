@@ -1,9 +1,16 @@
 footer {
   margin-top: 2rem;
   background-color: #314d92;
+  position: relative;
   .footer-curve {
     position: relative;
     top: -0.3em;
+  }
+  .tree-bottom {
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 30px;
   }
   .footer-info {
     display: flex;
@@ -50,6 +57,10 @@ footer {
 @media only screen and (max-width: 1200px) {
   footer {
     text-align: center;
+    .tree-bottom {
+      top: -30px;
+      width: 80px;
+    }
     ul {
       margin: 2rem auto 1rem;
     }

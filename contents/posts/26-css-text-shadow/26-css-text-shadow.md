@@ -2,7 +2,7 @@
 title: CSS Text Shadow
 slug: /26-css-text-shadow
 date: 2020-06-12
-desc: The CSS box-shadow property can be used to give block elements a drop shadow or an inner shadow.
+desc: The text-shadow CSS property adds shadows to text.
 # Old URL
 # Minute Read
 cover:
@@ -16,7 +16,7 @@ import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 import TextShadow from './1-text-shadow.gif'
 
-**With CSS3 you can create two types of shadows:**
+<p><b><span class='first-letter'>W</span>ith CSS3 you can create two types of shadows:</b></p>
 1. text-shadow (adds shadow to text)
 2. box-shadow (adds shadow to other elements)
 

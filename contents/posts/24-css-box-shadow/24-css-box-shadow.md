@@ -24,13 +24,13 @@ import Seven from './seven.png'
 import Eight from './eight.png'
 import CircleOutput from './circle.png'
 
-The CSS box-shadow property can be used to give block elements a drop shadow or an inner shadow. Let’s take a close look at this CSS property.
+<p><span class='first-letter'>T</span>he CSS box-shadow property can be used to give block elements a drop shadow or an inner shadow. Let’s take a close look at this CSS property.</p>
 
-<u> Examples: </u>
+<u>Examples:</u>
 
 There will be few examples where we discuss on box shadow property.
 
-1. **Adding box shadow to a div.**
+1. **Adding box shadow to a div 📦**
 
    ```html
    <div class='one'>One</div>
@@ -47,7 +47,7 @@ There will be few examples where we discuss on box shadow property.
 
     In the above snippet, You have not given any drop shadow color, then by default the color will be black.
 
-2. **Adding colour to drop-shadow:**
+2. **Adding colour to drop-shadow 🎨**
 
    ```html
    <div class='two'>Two</div>
@@ -62,7 +62,7 @@ There will be few examples where we discuss on box shadow property.
 
     <ImgPost src={Two} alt='box-shadow' width={30} />
 
-3. **Adding blur-radius to the drop-shadow:**
+3. **Adding blur-radius to the drop-shadow 💧**
 
    ```html
    <div class='three'>Three</div>
@@ -77,7 +77,7 @@ There will be few examples where we discuss on box shadow property.
 
    <ImgPost src={Three} alt='box-shadow' width={30} />
 
-4. **Adding spread-radius to the drop shadow:**
+4. **Adding spread-radius to the drop shadow ☄️**
 
    ```html
    <div class='four'>Four</div>
@@ -92,7 +92,7 @@ There will be few examples where we discuss on box shadow property.
 
    <ImgPost src={Four} alt='box-shadow' width={30} />
 
-5. **Adding inset to the div for drop shadow:**
+5. **Adding inset to the div for drop shadow 💧**
 
    ```html
    <div class='five'>Five</div>

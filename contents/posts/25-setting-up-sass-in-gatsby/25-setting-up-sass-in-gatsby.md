@@ -14,11 +14,11 @@ tags:
 
 import LinkPost from '../../../src/components/linkPost'
 
-Started working on Gatsby, and using SASS for styling the layout.
+<p><span class='first-letter'>S</span>tarted working on Gatsby, and using SASS for styling the layout.</p> 😇
 
 You can do the **SASS setup** in few steps:
 
-1. Install Plugins & Packages
+1. Install Plugins & Packages 
 
    ```sh
    $ npm install --save node-sass gatsby-plugin-sass

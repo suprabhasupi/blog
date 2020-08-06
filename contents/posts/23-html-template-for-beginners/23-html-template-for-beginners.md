@@ -16,11 +16,11 @@ tags:
 import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 
-For HTML developer, we all know how difficult it is to create a fully working and compatible HTML email template for newsletters or campaigns.
+<p><span class='first-letter'>F</span>or HTML developer, we all know how difficult it is to create a fully working and compatible HTML email template for newsletters or campaigns.</p>
 
 The knowledge I have gained over the past 6-10 months, to create beautiful and compatible HTML email for my company’s campaigns.
 
-**Some Useful Resources that I used:**
+**Some Useful Resources that I used 💁‍♀️**
 
 - <LinkPost href='https://www.htmlemailcheck.com/check/' name='HTML Email Check' />
 - <LinkPost href='https://putsmail.com/' name='PutsMail' />

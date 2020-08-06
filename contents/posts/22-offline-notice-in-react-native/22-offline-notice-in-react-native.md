@@ -17,8 +17,6 @@ import LinkPost from '../../../src/components/linkPost'
 import NoInternet1 from './1-no-internet-connection.png'
 import NoInternet2 from './2-no-internet-connection.png'
 
-Offline Notice In React Native
-
 Have you ever seen the red “No Internet Connection” sign in mobile apps. It looks something like this:
 <ImgPost src={NoInternet1} alt='no-internet-connection' width={60} margin='2rem 0' />
 

@@ -19,6 +19,7 @@ import ExternalAPI from './2-external-api.jpg'
 import Concurrency from './3-concurrency.png'
 import ConcurrencyB from './4-concurrency-b.jpg'
 import Channel from './5-channel.jpg'
+import TodoOutput from './6-todo-output.png'
 
 <p><span class='first-letter'>W</span>e covered almost all topics in <LinkPost href='/17-basics-of-golang-part-1' name='Part-1' />, <LinkPost href='/18-basics-of-golang-part-2' name='Part-2' /> and <LinkPost href='/19-basics-of-golang-part-3' name='Part-3' />. If you have not read those parts, I would recommend to check it out first, as creating variables, all control statements and data types are added into the first blog for  <LinkPost href='/17-basics-of-golang-part-1' name='Basics Of GoLang Part-1' />, Functions, Array, Toolkit, Packages, Unit Testing and Structs has explained in <LinkPost href='/18-basics-of-golang-part-2' name='Basics Of GoLang Part-2' /> and Pointers, Error Handling, Methods, Interface has explained in <LinkPost href='/19-basics-of-golang-part-3' name='Basics Of GoLang Part-3' />.</p>
 
@@ -270,6 +271,9 @@ func main() {
 }
 ```
 
+<u>Output:</u>
+<ImgPost src={TodoOutput} alt='todo output' width={50} margin="2rem 0" />
+
 ## 2️⃣ External API
 
 <ImgPost src={ExternalAPI} alt='external api in go' />
@@ -457,7 +461,7 @@ func main() {
 
 So, it's like spinning another execution and then I execute, And it happens again and again until the GoRoutine is not stopped. So in above example, there is nothing to run for execution.
 
-### Sync
+### Sync ␖
 
 There is library called **sync**, which is going to be a way for synchronise all of our asynchronous functionality.
 

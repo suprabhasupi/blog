@@ -26,6 +26,7 @@ import Saturate from './9-saturate.png'
 import Sepia from './10-sepia.png'
 import MultipleProperty from './11-multiple-property.png'
 import ColorWheel from './color-wheel.png'
+import GifFilter from './css-filter-banner.gif'
 
 <p><span class='first-letter'>T</span>he filter property is used to set the visual effect of an element. This property is mostly used to adjust the rendering of images, backgrounds, and borders. Also you can use the filter on SVG elements.</p>
 
@@ -332,6 +333,8 @@ Firstly, not all filters are created equal. Most filters will run really quickly
 <u>Example:</u>
 
 When you do a `blur`, it mixes the colors from pixels all around the output pixel to generate a blurred result. So, say if your `radius` parameter is 2, then the filter needs to look at 2 pixels in every direction around each output pixel to generate the mixed color. This happens for each output pixel, so that means a lot of calculations that just get bigger when you increase the `radius`. Since `blur` looks in every direction, doubling the `radius` means you need to look at 4 times as many pixels so in fact it’s 4 times slower for each doubling of the `radius`. The `drop-shadow` filter contains a `blur` as part of its effect, so it too behaves just like ‘blur’ when you change the `radius` and `spread` parts of the `shadow` parameter.
+
+<ImgPost src={GifFilter} alt='filter' width={60} margin='2rem 0' />
 
 ## Reference 🧐
 

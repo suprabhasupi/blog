@@ -3,7 +3,6 @@ title: Testing Javascript (part-1)
 slug: /15-testing-javascript-part-1
 date: 2020-05-15
 desc: Understand JEST setup, JestDOM, Coverage, watch mode, monkey patch
-priority: 1
 # Old URL
 # Minute Read
 cover:

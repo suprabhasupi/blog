@@ -119,7 +119,6 @@ There will be few examples where we discuss on box shadow property.
        box-shadow: 0px 0px 3px 2px;
    }
    ```
-
    <ImgPost src={Six} alt='box-shadow' width={30} />
 
    If you want a different shadow color, then you’ll need to specify it in the box-shadow property value declaration. Below you can see that even though the foreground color of the div is still red, the box shadow color is blue.

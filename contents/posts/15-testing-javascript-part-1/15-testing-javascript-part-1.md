@@ -132,7 +132,7 @@ module.exports = {}
 
 By above snippet, CSS import issue will get resolved. 😎
 
-But as you know, you are using CSS modules in React.(className = {styles.name})
+But as you know, you are using CSS modules in `React.(className = {styles.name})`
 
 As you have added the above file(`styleMock`) which is empty. When you console log in the test file `div.innerHTML`, then no class will be shown because you are passing empty style mock file.
 

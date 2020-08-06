@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Suprabha's Blog`,
+    siteUrl: `http://blog.suprabha.me`,
     description: `Weekly sharing new JS, HTML, CSS articles and focus on journey of frontend engineer 🔥`,
     author: `@suprabhasupi`,
     'twitter:card': 'summary_large_image',
@@ -68,6 +69,7 @@ module.exports = {
         trackingId: "UA-75872060-4",
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

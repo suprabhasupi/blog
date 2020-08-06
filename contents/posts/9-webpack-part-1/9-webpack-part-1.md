@@ -212,5 +212,4 @@ In this section we learnt how to setup webpack and loaders.
 
 <p><LinkPost href='/10-webpack-part-2' name='Next article' />, will be going to discuss following topics: <b>Cache Busting and plugins</b> , <b>Splitting dev and production</b>.</p>
 
-<!-- I hope you found this blog helpful, If you have any question please reach out to me on @suprabhasupi 😋 -->
 

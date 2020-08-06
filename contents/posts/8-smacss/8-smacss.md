@@ -63,7 +63,7 @@ I have read SMACSS book, and found some points which we use day to day life.
 
 13. CSS gets evaluated on right to left
     - To determine whether a CSS rule applies to a particular element, it starts on the right of the rule and works its way left.
-    - If you have a rule like body div#content p { color: #003366; } then for every element—as it gets rendered to the page—it will ask if it is a paragraph element. If it is then it will work its way up the DOM and ask if it is a div with an ID of content. If it finds what it is looking for, it will continue its way up the DOM until it reaches the body
+    - If you have a rule like body `div#content p { color: #003366; }` then for every element—as it gets rendered to the page—it will ask if it is a paragraph element. If it is then it will work its way up the DOM and ask if it is a div with an ID of content. If it finds what it is looking for, it will continue its way up the DOM until it reaches the body
     - By working right to left, the browser can determine whether a rule applies to this particular element that it is trying to paint to the viewport much faster
     - `.l-inline > *`
       - The downfall to this approach is that the rules will have to be evaluated for every single element on the page and not just the list items

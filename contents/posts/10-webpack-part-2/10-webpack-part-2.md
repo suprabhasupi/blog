@@ -223,5 +223,3 @@ $ npm install —save-dev webpack-dev-server
 ```
 
 `--open` will open the browser in window for us. It works as live server. You can change the code and webpack server will automatically rebuild and refresh the browser for us.
-
-<!-- I hope you found this blog helpful, If you have any question please reach out to me on @suprabhasupi  -->

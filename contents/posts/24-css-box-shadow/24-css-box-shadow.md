@@ -2,7 +2,7 @@
 title: CSS Box Shadow
 slug: /24-css-box-shadow
 date: 2020-06-04
-desc: Create Email Template for beginners
+desc: The CSS box-shadow property can be used to give block elements a drop shadow or an inner shadow.
 # Old URL
 # Minute Read
 cover:

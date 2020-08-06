@@ -1,5 +1,5 @@
 ---
-title: Setiing Up SASS in Gatsby
+title: Setting Up SASS in Gatsby
 slug: /25-setting-up-sass-in-gatsby
 date: 2020-06-06
 desc: The CSS box-shadow property can be used to give block elements a drop shadow or an inner shadow.
@@ -12,7 +12,6 @@ tags:
   - Gatsby
 ---
 
-import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 
 Started working on Gatsby, and using SASS for styling the layout.

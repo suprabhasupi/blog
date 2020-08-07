@@ -16,7 +16,7 @@ import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 import DataFlow from './1.gif'
 
-<p><span class='first-letter'>R</span>edux is a predictable state container for JavaScript apps. Need to understand the basic three principle. Here, you don't need to use Babel or a module bundler to get started with Redux. (It integrates with reducer and action.)</p>
+<p><span class='first-letter'>R</span>edux is a predictable state container for JavaScript apps. Need to understand the <LinkPost href='https://redux.js.org/introduction/three-principles' name='basic three principle' />. Here, you don't need to use Babel or a module bundler to get started with Redux. (It integrates with reducer and action.)</p>
 
 **When do you need to integrate redux with app🤔 :**
 

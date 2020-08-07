@@ -63,3 +63,7 @@ $ npm run ios
 ```
 
 Now, you can see the alias changes. 👍🏻
+
+## Reference 🧐
+
+<p><LinkPost href='https://www.novis.co/post/custom-aliases-in-react-native-with-babel/' name='Custom Aliases' /></p>

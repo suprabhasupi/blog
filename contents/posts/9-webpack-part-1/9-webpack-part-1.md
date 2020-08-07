@@ -126,7 +126,7 @@ module.exports =
 }
 ```
 
-## Loaders 
+## Loaders ↺
 
 <LinkPost href='https://webpack.js.org/loaders/' name='Loaders' /> are the magical part here for loading different types of file besides JS. There are different packages you install and they dictate how certain file should be preprocessed. Here you can handle CSS file one way, you can handle SVG file another way installing style loader and CSS loader.
 

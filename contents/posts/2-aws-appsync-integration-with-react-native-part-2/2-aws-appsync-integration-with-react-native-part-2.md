@@ -226,4 +226,6 @@ We can move from online access to offline access by changing the fetchPolicy wit
 - <mark>‘cache-only’</mark> ignores the network.
 
 
+## Reference 🧐
 
+<LinkPost href='https://docs.aws.amazon.com/appsync/latest/devguide/welcome.html' name='https://docs.aws.amazon.com/appsync/latest/devguide/welcome.html' />

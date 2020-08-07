@@ -111,3 +111,13 @@ h3 {
     display: block;
   }
 }
+
+@media print { 
+  /* All your print styles go here */
+  body {
+    width: 100%;
+  } 
+  footer {
+    display: none;
+  }
+ }

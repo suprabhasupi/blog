@@ -26,7 +26,7 @@ Now we will start learning interesting part of webpack which is:
 4. Multiple Entrypoints & Vendor.js
 5. Extract CSS & Minify HTML/CSS/JS
 
-## 1. Html-loader
+## 1️⃣ Html-loader ↺
 
 For images, when you use same img file structure for dev and prod. You will get issue as the images are not loading in prod well. To fix that install `html-loader`.
 
@@ -50,7 +50,7 @@ When you run `npm run prod`, you get error as:
 
 To fixed the error, need `file-loader`.
 
-## 1. File-loader
+## 2️⃣ File-loader 🗂
 
 To Install File loader:
 
@@ -101,7 +101,7 @@ module.exports =
 
 Now run `npm run prod`, it will create images as folder inside dist and all jpg/png/svg files will be copied there.
 
-## 3. Clean-webpack
+## 3️⃣ Clean-webpack 🧹
 
 Whenever you do some changes in file, it will create new hash file. You will install `clean-webpack` plugin which will delete `dist` directory everytime you build.
 
@@ -132,7 +132,7 @@ module.exports =
 })
 ```
 
-## 4. Multiple Entrypoints & Vendor.js
+## 4️⃣ Multiple Entrypoints & Vendor.js ⨱
 
 If you want to have multiple entry point then we can do it with below following steps:
 
@@ -169,7 +169,7 @@ module.exports = {
 
 Now by running `npm start` and `npm run prod`, it will create two file name as `main.bundle.js` and `vendor.bundle.js`.
 
-## Extract CSS & Minify HTML/CSS/JS
+## 5️⃣ Extract CSS & Minify HTML/CSS/JS 👽
 
 <mark>Extract CSS:</mark>
 It will be great you can have separate js file and css file in production. Currently everything is happening in one js file only. In production, you need CSS to load first. As JS may take some second to load. It can be doable using plugin called `mini-css-extract-plugin`.
@@ -293,7 +293,7 @@ module.exports =
 ```
 Now, by running `npm run prod`, you will get css file as well in dist folder.
 
-### Minify CSS:
+### <mark>Minify CSS:</mark>
 
 To minify the css you used the plugin called `optimize-css-assets-webpack-plugin`
 
@@ -318,7 +318,7 @@ By default the JS will be optimized, but when you run `npm run prod` here the CS
 
 To fix that you have to add optimization for JS as well.
 
-### Minify JS:
+### <mark>Minify JS:</mark>
 
 For JS minifier you will be using TerserPlugin, which has installed by default.
 
@@ -331,7 +331,7 @@ optimization: {
 }
 ```
 
-### Minify HTML:
+### <mark>Minify HTML:</mark>
 
 You are not going to use any new plugin for HTML minifiation.
 
@@ -403,9 +403,9 @@ module.exports =
 Now, run `npm run prod` and you can see in `dist/index.html`, you don’t have any comments and white spaces. The code will get minified.
 
 Check out the summary via below diagram 🥳
-<ImgPost src={WebpackSummary} alt='Webpack summary tag' width='60' margin='3rem auto' />
+<ImgPost src={WebpackSummary} alt='Webpack summary tag' width='50' margin='4rem auto' />
 
-I hope you found this blog helpful ♥️, If you have any question please reach out to me on @suprabhasupi 😋
+I hope you found this blog helpful ♥️, If you have any question please reach out to me on <LinkPost href='https://twitter.com/suprabhasupi' name='@suprabhasupi' /> 😋
 
 
 

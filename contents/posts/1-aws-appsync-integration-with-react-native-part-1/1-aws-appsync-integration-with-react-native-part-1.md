@@ -12,7 +12,12 @@ tags:
   - AWS
 ---
 
+import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
+import MutationSchema from './1.png'
+import Queries from './2.png'
+import Table from './3.png'
+import MutationQuery from './4.png'
 
 <p><span class='first-letter'>A</span>ppSync automatically updates the data in web and mobile apps in real time, and updates data for offline users as soon as they reconnect. We can connect the AppSync with React Native to store data offline.</p>
 
@@ -76,11 +81,13 @@ type Mutation {
     
 Now, We need to create resolver for each operation (query/mutation). And attach to it. Writing resolver for below template, requires knowledge of DynamoDB operations and context layout for AppSync. After creating each operation, Save the changes.
 
+<ImgPost src={MutationSchema} alt='mutation schema' width={70} />
+
 Below there are some resolver for those operations:
 
 ## MUTATIONS
 
-** 1. For PutNote template: **
+**1. For PutNote template:**
   
   Configure the request mapping template:-
 
@@ -97,12 +104,12 @@ Below there are some resolver for those operations:
        "content": $util.dynamodb.toDynamoDBJson($ctx.args.content),
      }
   }
-```
+  ```
 
 
-<mark>NOTE:</mark>
+**NOTE:**
 
-“noteId” :- It’s a variable name in table, where we are passing ($ctx.args.noteId): noteId parameter from mutation operation. This goes for both title and content which we are passing in attributeValues.
+<mark>"noteId"</mark> :- It’s a variable name in table, where we are passing `($ctx.args.noteId)`: noteId parameter from mutation operation. This goes for both title and content which we are passing in attributeValues.
 
 For the response template, Configure the response mapping template.
 
@@ -133,7 +140,7 @@ For the response template, Configure the response mapping template.
 $util.toJson($ctx.result)
 ```
 
-## QUERY
+## QUERY 📖
 
 ** 1. For GetSingleNote template: **
   
@@ -171,9 +178,9 @@ $util.toJson($ctx.result)
 ```
 
 
-<mark>NOTE:</mark>
+**NOTE:**
 
-Limit:- It express how many item we need to show in one call of query.
+`Limit`:- It express how many item we need to show in one call of query.
 
 For the response template, Configure the response mapping template.
 
@@ -183,10 +190,15 @@ $util.toJson($ctx.result.items)
 
 
 Now, After creating resolver for all operations we can test the changes.
-
 After Creating the note, we can check into DynamoDB it’s created 🙂
 
-In same way, we can get the note ,list of note and Delete the note.
+<ImgPost src={Queries} alt='queries' margin="2rem 0" />
+
+After Creating the note, we can check into DynamoDB it’s created :)
+
+<ImgPost src={Table} alt='table' margin="2rem 0" />
+
+In same way, we can get the note, list of note and Delete the note.
 
 You can check all queries by copy the below query:
 
@@ -224,6 +236,8 @@ query GetPost1 {
   }
 }
 ```
+
+<ImgPost src={MutationQuery} name='mutation query' />
 
 In last but not least, we are done with setting up AppSync. In <LinkPost href='/2-aws-appsync-integration-with-react-native-part-2' name='Part 2' />, We are going to integrate AppSync to our app. 😎
 

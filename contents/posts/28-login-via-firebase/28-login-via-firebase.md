@@ -9,7 +9,7 @@ cover:
   img: ../../../photos/28-login-via-firebase.png
 banner: ../../banners/28-login-via-firebase.png
 tags:
-  - Firebase
+  - Other
 ---
 
 import ImgPost from '../../../src/components/imgPost'

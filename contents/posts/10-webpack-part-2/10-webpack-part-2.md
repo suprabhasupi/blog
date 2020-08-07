@@ -21,7 +21,7 @@ Now We will be discussing on below topics:
 1. Cache Busting and plugins
 2. Splitting dev and production
 
-## 1. Cache Busting and Plugins
+## 1️⃣ Cache Busting and Plugins 🔌
 
 <p><LinkPost href='https://webpack.js.org/guides/caching/' name='Cache busting' /> is how can you prevent certain assets like main bundle js or css bundle, once you create separate CSS bundle.</p>
 
@@ -56,7 +56,7 @@ But when you generate the file through hash, then we no need to include script i
 
 ### <mark>HTMLWebpackPlugin</mark>
 
-The <LinkPost href='https://github.com/jantimon/html-webpack-plugin' name='HtmlWebpackPlugin' /> simplifies creation of HTML files to serve your webpack bundles. This is especially useful for webpack bundles that include a hash in the filename which changes every compilation. You can either let the plugin generate an HTML file for you, supply your own template using lodash templates, or use your own loader.
+The <LinkPost href='https://github.com/jantimon/html-webpack-plugin' name='HtmlWebpackPlugin' /> simplifies creation of HTML files to serve your webpack bundles. This is especially useful for webpack bundles that include a hash in the filename which changes every compilation. You can either let the plugin generate an HTML file for you, supply your own template using lodash templates, or use your own loader ↺.
 
 Add `HTMLWebpackPlugin` to project:
 
@@ -79,7 +79,7 @@ But there will be no content on the page. Previously, we were taking another `in
 
 Create new html file inside src folder as `main.html`. Copy the code of previous `index.html` file into `main.html`. Remove script tag which was taken from webpack previously.
 
-Removing the script from html:
+**Removing the script from html:**
 
 ```html
 <script src="/dist/main.js" ></script>
@@ -122,7 +122,7 @@ module.exports =
 
 Now when you do `$ npm start`, you can see `dist/index.html` where the template will be there from `main.html`.
 
-## 2. Splitting DEV and Production:
+## 2️⃣ Splitting DEV and Production 😈
 
 You can create two file in root as: `webpack.dev.js` and `webpack.prod.js`, and copy the code of `webpack.config.js` into both files.
 
@@ -223,3 +223,9 @@ $ npm install —save-dev webpack-dev-server
 ```
 
 `--open` will open the browser in window for us. It works as live server. You can change the code and webpack server will automatically rebuild and refresh the browser for us.
+
+Thanks for reading this article. ♥️
+
+In this section we learnt Cache Busting and plugins and Splitting dev and production
+
+<p><LinkPost href='/11-webpack-part-3' name='Next article' /> , will be going to discuss following topics: <b>Html-loader</b>, <b>File-loader</b>, <b>Clean-webpack</b>, <b>Multiple Entrypoints & Vendor.js</b> and <b>Extract CSS & Minify HTML/CSS/JS</b>.</p>

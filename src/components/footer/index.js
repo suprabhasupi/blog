@@ -14,7 +14,7 @@ const Footer = () => (
       <a href="https://github.com/suprabhasupi"> <Github size="2em" /> </a>
       <a href="https://codepen.io/suprabhasupi"> <Codepen size="2em" /> </a>
       <a href="https://dev.to/suprabhasupi"> <DevTo size="2em" /> </a>
-      <a href="https://www.instagram.com/suprabhasupi6"> <Instagram size="2em" /> </a>
+      <a href="https://www.instagram.com/suprabhasupi"> <Instagram size="2em" /> </a>
       <a href="https://www.linkedin.com/in/suprabha-s"> <Linkedin size="2em" /> </a>
       <a href="https://stackoverflow.com/users/8284147/suprabha"> <StackOverflow size="2em" /> </a>
       <a href="https://twitter.com/suprabhasupi"> <Twitter size="2em" /> </a>

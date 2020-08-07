@@ -28,11 +28,13 @@ console.log(username);
 
 ## Contents 📝
 
-1. `&&` or `||`
-2. Falsy Value
-3. No chaining with `&&` or `||` operators
-4. Browser Support
-5. Reference
+<blockquote>
+  1. `&&` or `||`
+  2. Falsy Value
+  3. No chaining with `&&` or `||` operators
+  4. Browser Support
+  5. Reference
+</blockquote>
 
 ### 1️⃣ `&&` or `||` 
 
@@ -51,7 +53,7 @@ Falsy value in JavaScript:
 
 `"&&" or "||"` operators work well with null or undefined values, but many false values can produce unexpected results.
 
-Let's take an example, here we want to process the response where value is 0(zero). So when you get the response which is falsy, so it will return the right-hand side value.
+Let's take an example, here we want to process the response where value is 0(zero). So when you get the response which is falsy, so it will return the right-hand side value. ➡️
 
 ```js
 const response = {
@@ -61,11 +63,11 @@ const count = response.count || 1;
 console.log(count) // 1
 ```
 
-To make it work, we will use nullish coalescing operator “??”.
+To make it work, we will use nullish coalescing operator `??`.
 
-The <mark>nullish coalescing operator</mark> "??" acts very similar to the operator “||,” except that it doesn’t use “truthy” when evaluating the operator. Instead, it uses the definition of “nullish,” which means that the value is strictly equal to null or undefined.
+The <mark>nullish coalescing operator</mark> `??` acts very similar to the operator `||`, except that it doesn’t use "truthy" when evaluating the operator. Instead, it uses the definition of “nullish,” which means that the value is strictly equal to null or undefined.
 
-We will take the same example:
+We will take the same example: 😎
 
 ```js
 const response = {
@@ -100,7 +102,7 @@ console.log(count) // 0
     console.log('' ?? 'supi');//''
     ```
 
-4. If you check with the undefined or null it will be same:
+4. If you check with the `undefined` or `null` it will be same:
 
     ```js
     undefined || 10 // 10
@@ -129,11 +131,11 @@ const animationDuration = response.settings.animationDuration ?? 300; // result:
 const showSplashScreen = response.settings.showSplashScreen ?? true; // result: false
 ```
 
-### 3️⃣ No chaining with AND or OR operators
+### 3️⃣ No Chaining with AND or OR operators ＆ │
 
-It is not possible to combine both the AND (&&) and OR operators (||) directly with ??. 
+It is not possible to combine both the `AND` (&&) and `OR` operators (||) directly with ??. 
 
-A <mark>SyntaxError</mark> will be thrown in such cases.
+A <span class='error'>SyntaxError</span> will be thrown in such cases.
 
 ```js
 null || undefined ?? "supi"; // raises a SyntaxError
@@ -147,7 +149,7 @@ However, providing parenthesis to explicitly indicate precedence is correct:
 ```
 
 
-### 4️⃣ Browser Support
+### 4️⃣ Browser Support 🖥
 
 It works in recent versions of Chrome or Firefox, among others.
 

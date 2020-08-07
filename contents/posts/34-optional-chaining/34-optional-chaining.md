@@ -12,7 +12,6 @@ tags:
   - JS
 ---
 
-import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 
 <p><span class='first-letter'>O</span>ptional chaining operator (?.) permits reading the value of a property located deep within a chain of connected objects without having to expressly validate that each reference in the chain is valid. The `?.` operator functions similarly to the `.` chaining operator, except that instead of causing an error if a reference is nullish (null or undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.</p>

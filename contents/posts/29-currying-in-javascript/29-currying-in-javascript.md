@@ -3,7 +3,6 @@ title: Currying in JavaScript
 slug: /29-currying-in-javascript
 date: 2020-07-08
 desc: Currying is a process in functional programming in which we can transform a function with multiple arguments into a sequence of nesting functions.
-priority: 1
 # Old URL
 # Minute Read
 cover:

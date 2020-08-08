@@ -3,7 +3,6 @@ title: Gatsby - Instagram User Posts
 slug: /36-gatsby-instagram-user-posts
 date: 2020-08-08
 desc: Integrate Instagram plugin into Gatbsy and list down the user posts.
-priority: 1
 # Old URL
 # Minute Read
 cover:
@@ -33,7 +32,7 @@ Add into plugin section in gatasby config:
 {
 	resolve: 'gatsby-source-instagram',
 	options: {
-		username: 'karanisverma'
+		username: 'suprabhasupi'
 	}
 }
 ```

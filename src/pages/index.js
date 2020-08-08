@@ -52,7 +52,7 @@ const IndexPage = ({ data }) => {
             <div className="new-post-info">
               <h3>{post.title}</h3>
               <p className='date'>
-              <Calendar size="1em" /><span>{post.date}</span>
+              <Calendar size="1em" /><span> {post.date}</span>
               </p>
               <p className='desc'>{post.desc}</p>
             </div>

@@ -1,5 +1,5 @@
 ---
-title: Gatsby - Instagram User Posts
+title: Gatsby - Instagram User Posts 📮
 slug: /36-gatsby-instagram-user-posts
 date: 2020-08-08
 desc: Integrate Instagram plugin into Gatbsy and list down the user posts.

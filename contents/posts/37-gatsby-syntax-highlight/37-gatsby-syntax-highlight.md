@@ -1,9 +1,8 @@
 ---
-title: Gatsby - Syntax Highlight
+title: Gatsby - Syntax Highlight 🏷
 slug: /37-gatsby-syntax-highlight
 date: 2020-08-09
 desc: Add some syntax highlighting for adding code blocks to your blog pages.
-priority: 1
 # Old URL
 # Minute Read
 cover:

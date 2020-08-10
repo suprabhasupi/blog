@@ -3,7 +3,6 @@ title: Gatsby - Image Optimization 🌃
 slug: /38-gatsby-image-optimization
 date: 2020-08-09
 desc: Image Optmization can be done with installing couple gatsby plugins.
-priority: 1
 # Old URL
 # Minute Read
 cover:

@@ -3,7 +3,6 @@ title: Website Editor ✏
 slug: /39-website-editor
 date: 2020-08-11
 desc: Two ways to edit website which is contentEditable and designMode.
-priority: 1
 # Old URL
 # Minute Read
 cover:
@@ -30,7 +29,7 @@ Both of the properties enabled editing the content on the page as if it was an e
 
 When you set a page into `designMode`, you can edit the content of the page directly inside the browser page, which is very handy to test some prototype or check out how a new headline would look, for example.
 
-**How to enable designMode ❓🤔**
+**How to enable designMode and contentEditable ❓🤔**
 
 ```
 document.designMode = 'on'

@@ -7,7 +7,7 @@ import { Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium, Cod
 
 const Footer = () => (
   <footer>
-    <img src={FooterCurve} className='footer-curve' />
+    <img src={FooterCurve} className='footer-curve' alt='footer curve design' />
     <div className='footer-info'>
     <div className='social-icons-copyright'>
       <div className='social-icons'>
@@ -31,7 +31,7 @@ const Footer = () => (
       </li>
     </ul>
       </div>  
-      <img src={TreeBottom} className='tree-bottom' />
+      <img src={TreeBottom} className='tree-bottom' alt='tree bottom design' />
       <p className='copyright'>
         © Copyright {new Date().getFullYear()},
         <a href="https://suprabha.me/"> Suprabha</a>

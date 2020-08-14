@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         <div className="new-post">
-          {posts.map(post => (post.priority ? <Link to={post.slug}>
+          {posts.map((post, i) => (post.priority ? <Link to={post.slug} key={i}>
             <div className='new-post-wrap'>
             <Image className="new-post-cover" fluid={post.img.sharp.fluid} />
             <div className="new-post-info">
@@ -64,8 +64,6 @@ const IndexPage = ({ data }) => {
         <TagList {...{ tags, activeTag, setActiveTag }} />
         <div className="post-list">
           <PostTemplate post={filteredPosts} />
-          {/* <PostTemplate post={filteredPosts} />
-          <PostTemplate post={filteredPosts} /> */}
         </div>
       </div>
       {/* return <pre>{JSON.stringify(post, null, 2)}</pre> */}

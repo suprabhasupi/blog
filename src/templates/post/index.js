@@ -5,11 +5,10 @@ import { Calendar } from "styled-icons/boxicons-regular"
 import "./style.scss"
 
 const PostTemplate = ({ post }) => {
-  // console.log("PostTemplate -> post", post)
   return (
     <>
-      {post.map(post => (
-        <div className="post-wrapper">
+      {post.map((post, i) => (
+        <div className="post-wrapper" key={i}>
           <Link to={post.slug}>
             <Image className="post-cover" fluid={post.img.sharp.fluid} />
           </Link>

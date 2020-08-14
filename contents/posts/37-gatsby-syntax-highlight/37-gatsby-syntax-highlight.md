@@ -128,5 +128,6 @@ pre {
 
 <ImgPost src={CodeOutput} alt='Gatsby Code mode Output' margin="2rem 0" width={90} />
 
-Checkout the committed code here <LinkPost href='https://github.com/suprabhasupi/blog/commit/00f1e77749b48a51bc95eb0d72f1b513cfa0f25a' name='@github' />
+Checkout the committed code here <LinkPost href='https://github.com/suprabhasupi/blog/commit/00f1e77749b48a51bc95eb0d72f1b513cfa0f25a' name='@github' />.
+Also, fixed the tag scrolling issue <LinkPost href='https://github.com/suprabhasupi/blog/commit/b1c384a99fc9aed0d90b976fc64fbff09c100e11' name='here' />
 

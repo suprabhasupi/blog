@@ -2,7 +2,7 @@
 title: How to Build Blog Using Gatsby 💻
 slug: /41-basic-of-gatsby
 date: 2020-08-15
-desc: Add meta tags to gatsby page for SEO friendly
+desc: Gatsby is a React based, GraphQL powered, static site generator
 priority: 1
 # Old URL
 # Minute Read
@@ -33,8 +33,9 @@ It uses powerful preconfiguration to build a website that uses only static files
 6. Working with Images
 7. Image Optimization
 8. Adding Images to MDX posts
-9. Analyzing Bundle Size
-10. Build Website
+9. Syntax Highlight
+10. Analyzing Bundle Size
+11. Build Website
 
 ## What makes Gatsby special? 😲
 
@@ -519,8 +520,12 @@ $ npm i gatsby-remark-images
 
 Now, once you restart the server, the image will work 🙌🏻
 
+## 9️⃣ Syntax Highlight
 
-## 9️⃣ Analyzing Bundle Size 🎒
+To work on Syntax Highlight, Checkout the article <LinkPost href='https://blog.suprabha.me/37-gatsby-syntax-highlight' name='here' />.
+
+
+## 🔟 Analyzing Bundle Size 🎒
 
 The last thing is to check the output, that the only thing which you have added should be there. To check that you will check bundle.
 
@@ -578,9 +583,40 @@ If you are importing any lodash function then try to import it via `lib`, so it 
 
 You can find the full snippet <LinkPost href='https://github.com/suprabhasupi/gatsby-intro/commit/b2f93691f296f4401efd3f2eb038a137b2f74b40' name='here' /> 😎
 
-## 🔟 Build Website ⛩
+## Build Website ⛩
+
+Once you run build command:
+
+```sh
+$ npm run build
+```
+
+It will generate all static files into public folder.
+
+Then you can serve the page by below command: 
+
+```sh
+$ npm run serve
+```
+
+And you can see build website on `localhost:9000`
+
+One more awesome thing, If you are in homepage and once you hover on menu `about us` link then it will prefetch the about us page data. So when you go to about us page, it will load very fast, 😍🤩 (file will be already available)
 
 I will be writing the artcile soon on how can we deploy Gastby blog on `Netlify` 😍
+
+### Cache Clean in Gastby 🧹
+
+Adding the below script into `package.json`:
+
+```json
+"cache": "gatsby clean"
+```
+Run it into terminal:
+
+```sh
+$ npm run cache
+```
 
 ## Reference 🧐
 

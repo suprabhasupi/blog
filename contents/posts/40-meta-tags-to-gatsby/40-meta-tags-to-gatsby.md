@@ -3,7 +3,6 @@ title: Adding Meta Tags to Gastby
 slug: /40-meta-tags-to-gatsby
 date: 2020-08-13
 desc: Add meta tags to gatsby page for SEO friendly
-priority: 1
 # Old URL
 # Minute Read
 cover:
@@ -15,7 +14,7 @@ tags:
 
 import LinkPost from '../../../src/components/linkPost'
 
-Its really good idea to add meta tags like title, description to page for SEO friendly. To do that, you need to make changes in `gatsby-config.js`.
+<p><span class='first-letter'>I</span>ts really good idea to add meta tags like title, description to page for SEO friendly. To do that, you need to make changes in `gatsby-config.js`.</p>
 
 <u>gatsby-config.js:</u>
 

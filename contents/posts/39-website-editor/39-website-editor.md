@@ -17,7 +17,7 @@ import LinkPost from '../../../src/components/linkPost'
 import ceVSdm from './1.png'
 import designMode from './2.png'
 
-There are 2 basic ways of making an editor 📝
+<p><span class='first-letter'>T</span>here are 2 basic ways of making an editor 📝</p>
 1. contentEditable property 
 2. designMode property 
 

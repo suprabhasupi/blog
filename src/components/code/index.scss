@@ -1,53 +1,61 @@
+.pre-highlight {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 pre {
-  &::after {
+  overflow: auto;
+  padding: 2em 1em;
+  &::before {
     background: white;
     border-radius: 0 0 0.25rem 0.25rem;
     font-size: 14px;
     letter-spacing: 0.025rem;
-    padding: 0.1rem 0.5rem;
+    padding: 0 0.5rem;
     position: absolute;
     right: 1rem;
     text-align: right;
     text-transform: uppercase;
-    top: 0;
+    top: 0.8rem;
     font-weight: 600;
+    line-height: 1.7;
   }
-  &.language-javascript::after {
+  &.language-javascript::before {
     content: "js";
     background: #f7df1e;
     color: black;
   }
-  &.language-go::after {
+  &.language-go::before {
     content: "go";
-    background: #8BD9F8;
+    background: #8bd9f8;
     color: black;
   }
-  &.language-js::after {
+  &.language-js::before {
     content: "js";
     background: #f7df1e;
     color: black;
   }
-  &.language-jsx::after {
+  &.language-jsx::before {
     content: "jsx";
     background: #cfff3a;
     color: black;
   }
-  &.language-html::after {
+  &.language-html::before {
     content: "html";
     background: #005a9c;
     color: white;
   }
-  &.language-json::after {
+  &.language-json::before {
     content: "json";
-    background: #3472F9;
+    background: #3472f9;
     color: white;
   }
-  &.language-css::after {
+  &.language-css::before {
     content: "css";
     background: #ff9800;
     color: white;
   }
-  &.language-sh::after {
+  &.language-sh::before {
     content: "sh";
     background: #eee;
     color: black;

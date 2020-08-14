@@ -60,17 +60,13 @@ const components = {
         language={
           matches && matches.groups && matches.groups.lang
             ? matches.groups.lang
-            : ''
+            : ""
         }
-			theme={theme} >
-        {({
-          className,
-          style,
-          tokens,
-          getLineProps,
-          getTokenProps,
-        }) => (
-          <pre className={className} style={style}>
+        theme={theme}
+      >
+        {({ className, style, tokens, getLineProps, getTokenProps }) => (
+          <div className='pre-highlight'>
+            <pre className={className} style={style}>
             {tokens.map((line, i) => (
               <div {...getLineProps({ line, key: i })}>
                 {line.map((token, key) => (
@@ -79,6 +75,7 @@ const components = {
               </div>
             ))}
           </pre>
+          </div>
         )}
       </Highlight>
     );
@@ -97,21 +94,29 @@ I have done the changes for my blog <LinkPost href='https://github.com/suprabhas
 I have added the language tag manually for code snippet. ＜⁄＞
 
 ```css
+.pre-highlight {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 pre {
-  &::after {
-    background: black;
+  overflow: auto;
+  padding: 2em 1em;
+  &::before {
+    background: white;
     border-radius: 0 0 0.25rem 0.25rem;
     font-size: 14px;
     letter-spacing: 0.025rem;
-    padding: 0.1rem 0.5rem;
+    padding: 0 0.5rem;
     position: absolute;
     right: 1rem;
     text-align: right;
     text-transform: uppercase;
-    top: 0;
+    top: 0.8rem;
     font-weight: 600;
+    line-height: 1.7;
   }
-  &.language-javascript::after {
+  &.language-javascript::before {
     content: "js";
     background: #f7df1e;
     color: black;

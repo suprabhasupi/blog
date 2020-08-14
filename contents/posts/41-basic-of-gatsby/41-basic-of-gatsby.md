@@ -22,7 +22,7 @@ import Analyzer from './2-analyze.png'
 
 <p><span class='first-letter'>G</span>atsby is a <LinkPost href='https://reactjs.org/docs/getting-started.html' name='React' /> based, <LinkPost href='https://graphql.org/learn/' name='GraphQL' /> powered, <LinkPost href='https://www.netlify.com/blog/2017/05/25/top-ten-static-site-generators-of-2017/' name='static site generator' />.</p>
 
-It uses powerful preconfiguration to build a website that uses only static files for incredibly fast page loads, service workers, code splitting, server-side rendering, intelligent image loading, asset optimization, and data prefetching.
+It uses powerful pre-configuration to build a website that uses only static files for incredibly fast page loads, service workers, code splitting, server-side rendering, intelligent image loading, asset optimization, and data prefetching.
 
 ## Contents 🔥
 1. Create New Page
@@ -39,7 +39,7 @@ It uses powerful preconfiguration to build a website that uses only static files
 
 ## What makes Gatsby special? 😲
 
-1. The way Gatsby uses GraphQL to build it’s data layer. Gatsby is made to collect your data from wherever it may be: Markdown, JSON, your favorite CMS, third party APIs, anywhere! And at build time, it creates an internal GraphQL server of all of this data. So in your react components, all of your data is queried at build time from that same place, in the same way through GraphQL.
+1. The way Gatsby uses GraphQL to build it’s data layer. Gatsby is made to collect your data from wherever it may be: Markdown, JSON, your favourite CMS, third party APIs, anywhere! And at build time, it creates an internal GraphQL server of all of this data. So in your react components, all of your data is queried at build time from that same place, in the same way through GraphQL.
 2. Gatsby removed the boilerplate for getting started and deploying apps to the production.
 3. Gatsby deploying static assets, because its static you don't have to worry about database access, server going down, etc.
 4. Once you are done with Gatsby unified query, you run the Gatsby build process which gives a folder of static assets. Then you can host up in any server like Netlify, S3, FTP.
@@ -109,7 +109,7 @@ export default () => (
 
 For styling, you can use any plugin like emotion, SASS, etc. I will be using SASS here.
 
-To setup SASS, follow this <LinkPost href='http://blog.suprabha.me/gatsby/setting-up-sass-in-gatsby/' name='article' /> 
+To setup SASS, follow this <LinkPost href='https://blog.suprabha.me/25-setting-up-sass-in-gatsby/' name='article' /> 
 
 
 ## 4️⃣ Adding Meta tags to page 🔖
@@ -411,7 +411,7 @@ Find the article <LinkPost href='https://blog.suprabha.me/38-gatsby-image-optimi
 
 ## 8️⃣ Adding Images to MDX Posts
 
-You can add the images into MDX posts via ionstalling `gatsby-image` dependencies:
+You can add the images into MDX posts via installing `gatsby-image` dependencies:
 
 ```sh
 $ npm i gatsby-image

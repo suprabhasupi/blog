@@ -3,7 +3,6 @@ title: How to Build Blog Using Gatsby 💻
 slug: /41-basic-of-gatsby
 date: 2020-08-15
 desc: Gatsby is a React based, GraphQL powered, static site generator
-priority: 1
 # Old URL
 # Minute Read
 cover:
@@ -49,7 +48,7 @@ It uses powerful pre-configuration to build a website that uses only static file
 
 ## Let's start creating Gatsby page 📄
 
-Lets clone this repo <LinkPost href='https://github.com/FrontendMasters/gatsby-intro' name='Gastby Intro' />
+Lets clone this repo <LinkPost href='https://github.com/FrontendMasters/gatsby-intro' name='Gatsby Intro' />
 
 Now, will go through the files:
 
@@ -603,12 +602,13 @@ And you can see build website on `localhost:9000`
 
 One more awesome thing, If you are in homepage and once you hover on menu `about us` link then it will prefetch the about us page data. So when you go to about us page, it will load very fast, 😍🤩 (file will be already available)
 
-I will be writing the artcile soon on how can we deploy Gastby blog on `Netlify` 😍
+Chekout the steps <LinkPost href='https://blog.suprabha.me/42-deploying-gatsby-on-netlify' name='here' /> that how to deploy gatsby blog on `Netlify`.
 
-### Cache Clean in Gastby 🧹
+### Cache Clean in Gatsby 🧹
 
 Adding the below script into `package.json`:
 
+<u>package.json: </u>
 ```json
 "cache": "gatsby clean"
 ```
@@ -621,6 +621,6 @@ $ npm run cache
 ## Reference 🧐
 
 - <LinkPost href='https://using-gatsby-image.gatsbyjs.org/' name='Using Gatsby Image' />
-- <LinkPost href='https://www.gatsbyjs.com/plugins/gatsby-transformer-sqip/' name='Gastby Transformer sqip' />
+- <LinkPost href='https://www.gatsbyjs.com/plugins/gatsby-transformer-sqip/' name='Gatsby Transformer sqip' />
 - <LinkPost href='https://www.freecodecamp.org/news/build-a-developer-blog-from-scratch-with-gatsby-and-mdx/' name='Build a blog from scratch ' />
 

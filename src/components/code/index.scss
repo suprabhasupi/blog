@@ -60,6 +60,11 @@ pre {
     background: #eee;
     color: black;
   }
+  &.language-md::before {
+    content: "md";
+    background: #56308A;
+    color: white;
+  }
 }
 
 /* pre[class="language-js"]::after { */

@@ -602,7 +602,8 @@ And you can see build website on `localhost:9000`
 
 One more awesome thing, If you are in homepage and once you hover on menu `about us` link then it will prefetch the about us page data. So when you go to about us page, it will load very fast, 😍🤩 (file will be already available)
 
-Chekout the steps <LinkPost href='https://blog.suprabha.me/42-deploying-gatsby-on-netlify' name='here' /> that how to deploy gatsby blog on `Netlify`.
+Chekout the steps <LinkPost href='https://blog.suprabha.me/42-deploying-gatsby-on-netlify' name='here' />, how to deploy gatsby blog on `Netlify`.
+I have deployed my Gatsby blog on <LinkPost href='http://blog.suprabha.me/43-deploying-gatsby-using-github-action-route-53' name='Github Actions and Route 53'/>. 😎
 
 ### Cache Clean in Gatsby 🧹
 

@@ -3,7 +3,6 @@ title: Deploying Gatsby on Netlify 💻
 slug: /42-deploying-gatsby-on-netlify
 date: 2020-08-16
 desc: How to deploy Gatsby blog on Netlify 🤔
-priority: 1
 # Old URL
 # Minute Read
 cover:
@@ -41,7 +40,7 @@ import CheckBuildStatus from './6-check-build-status.png'
     <ImgPost src={CheckBuildStatus} alt='Check Build status' margin="2rem 0" />
 10. Once its get deployed, you will see published status ✅ or ❌
 
-You can also deploy specific branch in `Netlify`. Once you create pull reuest it will automatically create the building part.
+You can also deploy specific branch in `Netlify`. Once you create pull request it will automatically create the building part.
 
 URL of netlify is different, that we can changes from general settings in change site name.
 

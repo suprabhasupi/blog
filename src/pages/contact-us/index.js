@@ -21,7 +21,7 @@ const SecondPage = () => (
       <a href="https://www.linkedin.com/in/suprabha-s"> <Linkedin size="3em" /> </a>
       <a href="https://stackoverflow.com/users/8284147/suprabha"> <StackOverflow size="3em" /> </a>
       <a href="https://twitter.com/suprabhasupi"> <Twitter size="3em" /> </a>
-      <a href="https://github.com/suprabhasupi"> <Medium size="3em" /> </a>
+      <a href="https://medium.com/@suprabhasupi"> <Medium size="3em" /> </a>
     </div>
     </div>
     {/* <Link to="/">Go back to the homepage</Link> */}

@@ -3,7 +3,6 @@ title: Deploying Gatsby using Github Action & route 53
 slug: /43-deploying-gatsby-using-github-action-route-53
 date: 2020-08-17
 desc: How to deploy Gatsby using Github Action & route 53 🤔
-priority: 1
 # Old URL
 # Minute Read
 cover:

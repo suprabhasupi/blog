@@ -22,7 +22,7 @@ import Actions from './5-actions.png'
 import HostedZone from './6-hosted-zone.png'
 import IP from './7-ip.png'
 
-Deployed my <LinkPost href='http://blog.suprabha.me' name='personal blog' /> using `Route 53` and `Github action` .
+<p><span class='first-letter'>D</span>eployed my <LinkPost href='http://blog.suprabha.me' name='personal blog' /> using `Route 53` and `Github action`.</p>
 
 Lets take this process into two step:
 

@@ -3,7 +3,6 @@ title: Splice in JavaScript
 slug: /45-splice-in-javascript
 date: 2020-08-23
 desc: The splice method changes the content of the array in place and can be used to add or remove items from the array.
-priority: 1
 # Minute Read
 cover:
     img: ../../../photos/45-splice-in-javascript.png
@@ -14,7 +13,7 @@ tags:
 
 import LinkPost from '../../../src/components/linkPost'
 
-The splice method changes the content of the array in place and can be used to add or remove items from the array.
+<p><span class='first-letter'>S</span>plice method changes the content of the array in place and can be used to add or remove items from the array.</p>
 
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];

@@ -21,7 +21,7 @@ import SelectProject from './4-select-project.png'
 import DeploySite from './5-deploy-site.png'
 import CheckBuildStatus from './6-check-build-status.png'
 
-## How can you deploy Gatsby on Netlify? 🤔
+## <span class='first-letter'>H</span>ow can you deploy Gatsby on Netlify? 🤔
 
 1. Go to <LinkPost href='https://www.netlify.com' name='Netlify' />
 2. Singup or login via github/gitlab or your choice 😅. I will be login via github.

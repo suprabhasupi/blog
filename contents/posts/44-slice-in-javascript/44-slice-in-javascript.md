@@ -14,7 +14,7 @@ tags:
 
 import LinkPost from '../../../src/components/linkPost'
 
-The slice method returns a new array with a copied slice from the original array.
+<p><span class='first-letter'>S</span>lice method returns a new array with a copied slice from the original array.</p>
 
 <u>Syntax:</u>
 

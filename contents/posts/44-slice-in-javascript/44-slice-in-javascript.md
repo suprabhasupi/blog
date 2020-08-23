@@ -3,7 +3,6 @@ title: Slice in JavaScript
 slug: /44-slice-in-javascript
 date: 2020-08-22
 desc: The slice method returns a new array with a copied slice from the original array.
-priority: 1
 # Old URL
 # Minute Read
 cover:
@@ -13,7 +12,6 @@ tags:
     - JS
 ---
 
-import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 
 The slice method returns a new array with a copied slice from the original array.
@@ -35,7 +33,7 @@ Its too theoretically right 😜, lets understand by few examples.
 
 ```js
 const arr = ['🍏', '🍓', '🌽', '🍇', '🍒'];
-const newArr = arr.slice(2,4)
+const newArr = arr.slice(2,4);
 console.log(newArr); // ["🌽", "🍇"]
 ```
 
@@ -82,7 +80,7 @@ console.log(newArr); // ["🍓", "🌽", "🍇", "🍒"]
 #### slice() method can also be used for <mark>strings</mark> ✅
 
 ```js
-const arr = 'suprabha'
+const arr = 'suprabha';
 const newArr = arr.slice(0,3);
 console.log(newArr); // "sup"
 ```

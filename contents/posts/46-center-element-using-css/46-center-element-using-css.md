@@ -3,7 +3,6 @@ title: Center Element Using CSS
 slug: /46-center-element-using-css
 date: 2020-08-24
 desc: Different ways to align element to the center of the page.
-priority: 1
 # Minute Read
 cover:
     img: ../../../photos/46-center-element-using-css.png

@@ -3,7 +3,7 @@ title: CSS Selectors (part-1)
 slug: /47-css-selectors
 date: 2020-08-31
 desc: Selectors are used to selecting elements in an HTML document, in order to attach (style) properties to them.
-priority: 1
+
 # Minute Read
 cover:
     img: ../../../photos/47-css-selectors.png

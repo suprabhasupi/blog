@@ -18,7 +18,7 @@ import LinkPost from '../../../src/components/linkPost'
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];
 arr.splice(2,3); // ["🌹", "🌵", "🍄"]
-console.log(myArr); // ["🌼", "🌴"]
+console.log(arr); // ["🌼", "🌴"]
 ```
 
 <u>Syntax:</u>
@@ -44,7 +44,7 @@ In `item`,  The number you want to add(*If you're removing, you can just leave t
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];
 arr.splice(2); // ["🌹", "🌵", "🍄"]
-console.log(myArr); // ["🌼", "🌴"]
+console.log(arr); // ["🌼", "🌴"]
 ```
 
 🌚 Remove 1 element at index 3:
@@ -52,7 +52,7 @@ console.log(myArr); // ["🌼", "🌴"]
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];
 arr.splice(3, 1); // ["🌵"]
-console.log(myArr); // ["🌼", "🌴", "🌹", "🍄"]
+console.log(arr); // ["🌼", "🌴", "🌹", "🍄"]
 ```
 
 🌚 An arbitrary amount of additional arguments can be passed-in and will be added to the array:
@@ -60,7 +60,7 @@ console.log(myArr); // ["🌼", "🌴", "🌹", "🍄"]
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];
 arr.splice(2, 1, "⭐️", "💥"); // ["🌹"]
-console.log(myArr); // ["🌼", "🌴", "⭐️", "💥", "🌵", "🍄"]
+console.log(arr); // ["🌼", "🌴", "⭐️", "💥", "🌵", "🍄"]
 ```
 
 🌚 Remove 1 element from index -2:
@@ -68,7 +68,7 @@ console.log(myArr); // ["🌼", "🌴", "⭐️", "💥", "🌵", "🍄"]
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];
 arr.splice(-2, 1); // ["🌵"]
-console.log(myArr); // ["🌼", "🌴", "🌹", "🍄"]
+console.log(arr); // ["🌼", "🌴", "🌹", "🍄"]
 ```
 
 🌚 You can specify 0 as the number of items to remove to simply add new items at the specified location in the array:
@@ -76,7 +76,7 @@ console.log(myArr); // ["🌼", "🌴", "🌹", "🍄"]
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];
 arr.splice(2, 0, "⭐️", "💥"); // []
-console.log(myArr); // ["🌼", "🌴", "⭐️", "💥", "🌹", "🌵", "🍄"]
+console.log(arr); // ["🌼", "🌴", "⭐️", "💥", "🌹", "🌵", "🍄"]
 ```
 
 🌚 Add few items at the end of array:
@@ -84,7 +84,7 @@ console.log(myArr); // ["🌼", "🌴", "⭐️", "💥", "🌹", "🌵", "🍄"
 ```js
 const arr = ["🌼", "🌴", "🌹", "🌵", "🍄"];
 arr.splice(arr.length, 0, "🌕", "🌞", "🌦"); // []
-console.log(myArr); // ["🌼", "🌴", "🌹", "🌵", "🍄", "🌕", "🌞", "🌦"]
+console.log(arr); // ["🌼", "🌴", "🌹", "🌵", "🍄", "🌕", "🌞", "🌦"]
 ```
 
 ## Reference 🧐

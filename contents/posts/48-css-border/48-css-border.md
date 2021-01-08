@@ -3,7 +3,6 @@ title: CSS Border
 slug: /48-css-border
 date: 2020-09-20
 desc: The CSS border property is used to set the border of an HTML element.
-priority: 1
 # Minute Read
 cover:
     img: ../../../photos/48-css-border.png

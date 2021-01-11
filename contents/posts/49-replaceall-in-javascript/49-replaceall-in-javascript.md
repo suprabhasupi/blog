@@ -3,7 +3,6 @@ title: replaceAll in JavaScript
 slug: /49-replaceall-in-javascript
 date: 2021-01-09
 desc: String.prototype.replaceAll() replaces all occurrence of a string with another string value.
-priority: 1
 # Minute Read
 cover:
     img: ../../../photos/49-replaceall-in-javascript.png

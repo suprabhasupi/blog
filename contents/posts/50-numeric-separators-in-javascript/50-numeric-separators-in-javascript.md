@@ -39,21 +39,21 @@ You can also use this for binary, octal, and hex numbers.
 
 ```js
 let series1 = 0b1010_0101_1001;
-console.log(series1); // 
+console.log(series1); // 2649
 ```
 
 <mark>Octal Number:</mark> 👻
 
 ```js
-const series2 = 0o2_3_5_7;
-console.log(series2); // 
+let series2 = 0o2_3_5_7;
+console.log(series2); // 1263
 ```
 
 <mark>Hex Number:</mark> 👻
 
 ```js
-const series3 = 0xA_B_C_D_E;
-console.log(series3); // 
+let series3 = 0xA_B_C_D_E;
+console.log(series3); // 703710
 ```
 
 ### Few Limitation 🤦‍♀️

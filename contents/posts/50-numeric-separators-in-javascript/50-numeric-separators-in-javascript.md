@@ -3,7 +3,6 @@ title: Numeric Separators in JavaScript
 slug: /50-numeric-separators-in-javascript
 date: 2021-01-11
 desc: Numeric Separators give us the ability to separate thousands with an underscore (_) in numeric literals.
-priority: 1
 cover:
     img: ../../../photos/50-numeric-separators-in-javascript.png
 banner: ../../banners/50-numeric-separators-in-javascript.png

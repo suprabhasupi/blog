@@ -15,7 +15,7 @@ import LinkPost from '../../../src/components/linkPost'
 import ImgPost from '../../../src/components/imgPost'
 import Post from './1-post.png'
 
-<p><span class='first-letter'>C</span>ommit message is very important when you work in team. Using <mark>Commitlint</mark> for validating commit message.</p>
+<p><span class='first-letter'>C</span>ommit message is very important when you work in team. By reading the conventiional commit messages, it helps your team to understand what changes have you done and why. Sometime it's also going to help you when you look back into your codebase 😜 . You will be using <mark>Commitlint</mark> for validating commit message.</p>
 
 <p>commitlint checks if your commit messages meet the <LinkPost href="https://www.conventionalcommits.org/en/v1.0.0/" name="conventional commit format">conventional commit format</LinkPost>.</p>
 

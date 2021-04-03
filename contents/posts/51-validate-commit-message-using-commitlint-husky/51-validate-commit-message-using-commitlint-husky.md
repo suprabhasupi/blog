@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/51-validate-commit-message-using-commitlint-husky.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
@@ -17,7 +16,7 @@ import Post from './1-post.png'
 
 <p><span class='first-letter'>C</span>ommit message is very important when you work in team. By reading the conventiional commit messages, it helps your team to understand what changes have you done and why. Sometime it's also going to help you when you look back into your codebase 😜 . You will be using <mark>Commitlint</mark> for validating commit message.</p>
 
-<p>commitlint checks if your commit messages meet the <LinkPost href="https://www.conventionalcommits.org/en/v1.0.0/" name="conventional commit format">conventional commit format</LinkPost>.</p>
+<p>commitlint checks if your commit messages meet the <LinkPost href="https://www.conventionalcommits.org/en/v1.0.0/" name="conventional commit format" />.</p>
 
 **Install commitlint:**
 
@@ -26,10 +25,10 @@ $ yarn add @commitlint/cli
 ```
 
 There are few convention we can use:
-1. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-angular" name="@commitlint/config-angular"> @commitlint/config-angular </LinkPost>
-2. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-conventional" name="@commitlint/config-conventional"> @commitlint/config-conventional </LinkPost> ✅
-3. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-lerna-scopes" name="@commitlint/config-lerna-scopes"> @commitlint/config-lerna-scopes </LinkPost>
-4. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-patternplate" name="@commitlint/config-patternplate"> @commitlint/config-patternplate </LinkPost>
+1. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-angular" name="@commitlint/config-angular" />
+2. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-conventional" name="@commitlint/config-conventional" /> ✅
+3. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-lerna-scopes" name="@commitlint/config-lerna-scopes" />
+4. <LinkPost href="https://github.com/conventional-changelog/commitlint/blob/master/@commitlint/config-patternplate" name="@commitlint/config-patternplate" />
 
 
 To add config-conventional into project,

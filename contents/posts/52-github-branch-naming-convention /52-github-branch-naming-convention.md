@@ -8,14 +8,13 @@ cover:
 banner: ../../banners/52-github-branch-naming-convention.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
 import ImgPost from '../../../src/components/imgPost'
 import Post from './naming-convention.png'
 
-A consistent branch naming convention is part of code review best practices.
+<p><span class='first-letter'>A</span> consistent branch naming convention is part of code review best practices.</p>
 
 <ImgPost src={Post} alt="JIRA issue ID with description" />
 

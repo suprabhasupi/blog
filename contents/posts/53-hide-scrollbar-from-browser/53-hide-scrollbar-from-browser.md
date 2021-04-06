@@ -7,12 +7,11 @@ cover:
   img: ../../../photos/53-hide-scrollbar-from-browser.png
 banner: ../../banners/53-hide-scrollbar-from-browser.png
 tags:
-    - JS
+    - CSS
 priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
-import ImgPost from '../../../src/components/imgPost'
 
 <p><span class='first-letter'>T</span>here are many times when we need to hide the scrollbar from the HTML elements. The uses can vary from person to person. It is opinionated topic to keep the scrollbar or not based on User Interactions(UI)/User ,Experience(UX).</p>
 

@@ -45,8 +45,8 @@ h3 {
     border: 1px solid #ccc;
     padding: 40px;
     position: relative;
-    background-image: linear-gradient(to right,#ffffff, #fdc7d5);
-    // background-image: linear-gradient(to right,#ffffff, #F0DB4F); // yellow
+    // background-image: linear-gradient(to right,#ffffff, #fdc7d5); // pink
+    background-image: linear-gradient(to right,#ffffff, #F0DB4F); // yellow
     // background-image: linear-gradient(to right,#ffffff, #ff914e); // orange
     // background-image: linear-gradient(to right, #ffffff, #53cb81);
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
@@ -98,10 +98,10 @@ h3 {
     .new-post {
       width: 100%;
       padding: 2rem 1rem;
-      background-image: linear-gradient(to bottom, #ffffff, #fdc7d5);
+      // background-image: linear-gradient(to bottom, #ffffff, #fdc7d5); // pink
       // background-image: linear-gradient(to bottom, #ffffff, #53cb81);
       // background-image: linear-gradient(to bottom, #ffffff, #ff914e); // orange
-      // background-image: linear-gradient(to bottom, #ffffff, #F0DB4F); //yellow
+      background-image: linear-gradient(to bottom, #ffffff, #F0DB4F); //yellow
       .new-post-wrap {
         display: block;
       }

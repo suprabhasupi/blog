@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/53-hide-scrollbar-from-browser.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

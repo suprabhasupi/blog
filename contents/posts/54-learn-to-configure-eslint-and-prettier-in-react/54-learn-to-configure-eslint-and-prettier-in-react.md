@@ -118,7 +118,8 @@ module.exports = {
 }
 ```
 
-Once you add above snippet, you will get type error. To fix it add:
+Once you add above snippet, you will get type error. To fix it add comment:
+
 <u>.eslintrc.js:</u>
 
 ```js
@@ -146,7 +147,7 @@ Using Prettier, we can follow common code style.
 
 Install Prettier:
 
-```jsx
+```sh
 $ npm install prettier --save-dev
 ```
 
@@ -320,7 +321,7 @@ That’s all. At each commit, the command associated with pre-commit will be run
 
 ### lint-staged 🚀
 
-The more your codebase will grow, the more linting and formatting will be longer. Imagine you have more than 1000 components. You don’t want to wait for ESLint to lint all your codebase, don’t you? In the end, the only files that need to be linted are the ones that just have been modified. For that, you can use <LinkPost href ="lint-staged" name="https://github.com/okonet/lint-staged" />.
+The more your codebase will grow, the more linting and formatting will be longer. Imagine you have more than 1000 components. You don’t want to wait for ESLint to lint all your codebase, don’t you? In the end, the only files that need to be linted are the ones that just have been modified. For that, you can use <LinkPost href ="https://github.com/okonet/lint-staged" name="lint-staged" />.
 
 Install `lint-staged`:
 
@@ -480,3 +481,6 @@ module.exports = {
 <mark>NOTE:</mark>
 
 After making above changes, if the code doesn't work then restart your code editor.
+
+
+<!-- reference: https://thomlom.dev/setup-eslint-prettier-react/ -->

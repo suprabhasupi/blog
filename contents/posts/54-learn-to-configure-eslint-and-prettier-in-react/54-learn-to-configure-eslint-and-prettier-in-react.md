@@ -15,7 +15,7 @@ import LinkPost from '../../../src/components/linkPost'
 
 <p><span class='first-letter'>W</span>hy linting your code is important?</p>
 
-Linting will checks out the code without executing it. 
+Linting will checks out the code without executing it.
 
 The best part of a linter is finding potential errors in your code that don’t look like them. 
 
@@ -26,21 +26,21 @@ ESLint parses your code, analyses it, and runs linting rules. These rules may tr
 Example:
 
 ```js
-// ❌ Oops, what is multiple?
-const output = multiple(1, 2);
+// ❌ Oops, what is multiply?
+const output = multiply(1, 2);
 ```
 
 ESLint wouldn’t know what add refers to and would throw an error at you. You need to explicitly declare add to correct it:
 
 ```js
 // ✅ Correct
-function multiple() {}
-const output = multiple(1, 2);
+function multiply() {}
+const output = multiply(1, 2);
 ```
 
-**Install Eslint:**
+**Install ESLint:**
 
-<u>Globally</u>
+<u>Globally Installation</u>
 
 ```sh
 $ npm install eslint -g
@@ -48,15 +48,19 @@ $ npm install eslint -g
 
 **OR**
 
+<u>Project Installation</u>
+
 ```sh
 $ npm install eslint eslint-plugin-react lint-staged --save-dev
 ```
 
-**NOTE:** If you are using VS code, then install the plugin: <LinkPost href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" name="ESLint extension for VSCode" />. It will highlight errors and warnings directly in your code.
+**NOTE:** 
+
+If you are using VS code, then install the plugin: <LinkPost href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" name="ESLint extension for VSCode" />. It will highlight errors and warnings directly in your code.
 
 ### Configure ESLint ⚙︎
 
-ESLint is highly configurable. Just add `.eslintrc` file at the root of your project, and then you can run ESLint on any files you want.
+ESLint is highly configurable. Just add `.eslintrc.js` file at the root of your project, and then you can run ESLint on any files you want.
 
 If you want to skip eslint for some code then add the comment to your code: `// eslint-disable-next-line`
 
@@ -67,7 +71,9 @@ If you want to skip eslint for some code then add the comment to your code: `// 
 const result = multiple(1, 2);
 ```
 
-**NOTE**: Use it with caution, It’s very bad idea to disable ESLint every time it spots errors.
+**NOTE:**
+
+Use it with caution, It’s very bad idea to disable ESLint every time it spots errors.
 
 ### ESLint CLI ☀︎
 
@@ -94,7 +100,6 @@ ESLint has a CLI to lint files. You can find all the options on <LinkPost href="
 <u>.eslintrc.js:</u>
 
 ```js
-// eslint-disable-next-line no-undef
 module.exports = {
   env: {
     browser: true,
@@ -141,11 +146,9 @@ Checkout <LinkPost href="https://github.com/facebook/create-react-app/blob/maste
 
 # Prettier 🗽
 
-It helps in formatting the codebase.
+It helps in formatting the codebase. Using Prettier, we can follow common code style.
 
-Using Prettier, we can follow common code style.
-
-Install Prettier:
+<u>Install Prettier:</u>
 
 ```sh
 $ npm install prettier --save-dev
@@ -153,7 +156,7 @@ $ npm install prettier --save-dev
 
 **NOTE:** 
 
-If you are using VS code, then install the plugin: [Prettier extension for VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). It will highlight errors and warnings directly in your code.
+If you are using VS code, then install the plugin: <LinkPost href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" name="Prettier extension for VSCode" />. It will highlight errors and warnings directly in your code.
 
 ### Configure Prettier ⚙︎
 
@@ -198,7 +201,7 @@ Using `--write` option which is similar to `--fix` in eslint.
 }
 ```
 
-<mark>Enable formatOnSave in Vscode</mark>
+<mark> Enable formatOnSave in Vscode </mark>
 
 Look for formatOnSave and check the checkbox, or add this line to `settings.json`:
 
@@ -228,7 +231,7 @@ $ npm install eslint-config-prettier eslint-plugin-prettier --save-dev
 }
 ```
 
-Prettier Configuration:
+**Prettier Configuration:**
 
 <u>.prettierrc.json:</u>
 
@@ -256,9 +259,9 @@ If you are using GIT, you can make use of <LinkPost href="https://git-scm.com/do
 
 # husky 🐶
 
-It's not dog. We’re talking about the tool that allows you to set up Git hooks very easily
+It's not dog. We’re talking about the tool that allows you to set up Git hooks very easily.
 
-Let’s say your package.json has the following scripts, and you want to run lint and format at each commit:
+Let’s say your `package.json` has the following scripts, and you want to run lint and format at each commit:
 
 <u>package.json:</u>
 
@@ -273,23 +276,24 @@ Let’s say your package.json has the following scripts, and you want to run lin
 }
 ```
 
-- Install husky as a dev dependency:
-
 Then, you can add Git hooks in two easy steps:
 1. Install husky 
 2. Add pre commit
 
-1. Install husky 
+
+**1. Install husky **
+
 ```sh
 $ npm install husky --save-dev
 ```
 
-2. Add pre commit
-Adding pre-commit to your project by 2 approach:
+**2. Add pre commit**
+
+You can add `pre-commit` to your project by using 2 approaches:
 
 **Approach 1:**
 
-Create .husky in root and pre-commit file:
+Create `.husky` in root and pre-commit inside `.husky` folder:
 
 **.husky/pre-commit:**
 
@@ -302,7 +306,8 @@ yarn run pre-commit
 
 **Approach 2:**
 
-Insert the following code in your package.json:
+Insert the following code in your `package.json`:
+
 <u>package.json</u>
 
 ```json
@@ -323,7 +328,7 @@ That’s all. At each commit, the command associated with pre-commit will be run
 
 The more your codebase will grow, the more linting and formatting will be longer. Imagine you have more than 1000 components. You don’t want to wait for ESLint to lint all your codebase, don’t you? In the end, the only files that need to be linted are the ones that just have been modified. For that, you can use <LinkPost href ="https://github.com/okonet/lint-staged" name="lint-staged" />.
 
-Install `lint-staged`:
+**Install lint-staged:**
 
 ```sh
 $ npm install --save-dev lint-staged
@@ -342,11 +347,11 @@ Then, you have to add a `lint-staged` key to your `package.json` file for the co
 }
 ```
 
-The above configuration will allow you to run ESLint and fix both .js and .jsx files. In the same time, it will run Prettier on .json, .css and .md files.
+The above configuration will allow you to run ESLint and fix both .js and .jsx files. In the same time, it will run Prettier on `.json, .css, .md` files.
 
 Then, let’s tell ESLint we’ll use Prettier's configuration:
 
-**.eslintrc.js:**
+<u>**.eslintrc.js:**</u>
 
 ```js
 {
@@ -355,9 +360,9 @@ Then, let’s tell ESLint we’ll use Prettier's configuration:
 }
 ```
 
-Once done, we need to specify the options to Prettier. For that, either create a `.prettierrc` file or add a `prettier` key to the `package.json`. We’ll choose the first option:
+Once it's done, you need to specify the options to Prettier. For that, either create a `.prettierrc.json` file or add a `prettier` key to the `package.json`. We’ll choose the first option:
 
-**.prettierrc.json:**
+<u>**.prettierrc.json:**</u>
 
 ```json
 {
@@ -368,10 +373,10 @@ Once done, we need to specify the options to Prettier. For that, either create a
 }
 ```
 
-Let’s add the pre-commit hook on staged files. We need to install both husky and `lint-staged` in the devDependencies for that:
+Let’s add the `pre-commit` hook on staged files. We need to install both `husky` and `lint-staged` in the devDependencies for that:
 
 ```sh
-$ npm install --save-dev husky lint-staged
+$ npm install husky lint-staged --save-dev
 ```
 
 Then, we’ll add the `pre-commit` hook itself by adding a `husky` key to `package.json`:
@@ -390,6 +395,8 @@ Then, we’ll add the `pre-commit` hook itself by adding a `husky` key to `packa
 
 If we leave this as-is, it will fail because we haven’t specified the configuration for lint-staged, so let’s do it right away:
 
+<u>**.eslintrc.js:**</u>
+
 ```js
 {
   "lint-staged": {
@@ -404,7 +411,7 @@ If we leave this as-is, it will fail because we haven’t specified the configur
 }
 ```
 
-Here we use ESLint to lint and format JS and JSX files. We also use Prettier to format json, css and markdown files. You’re perfectly set up. 
+Here, you use ESLint to lint and format JS and JSX files. You also use Prettier to format json, css and markdown files. You’re perfectly set up. 
 
 Here is the full `package.json` file:
 
@@ -482,5 +489,6 @@ module.exports = {
 
 After making above changes, if the code doesn't work then restart your code editor.
 
+### Reference 🧐
 
-<!-- reference: https://thomlom.dev/setup-eslint-prettier-react/ -->
+- <LinkPost href="https://thomlom.dev/setup-eslint-prettier-react" name="ESLint + Prettier by Thomlom Dev" />

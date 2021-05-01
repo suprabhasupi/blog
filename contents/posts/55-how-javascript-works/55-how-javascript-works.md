@@ -79,7 +79,7 @@ In above image, We have a high level language in Javascript, Interpreter take th
 
 Compiler will take a high level language code and spit out machine code. So, it can give it to CPU, and CPU can actually run the code. 
 
-Hence, Interpreter allows us to run the code right away and the compiler and profiler allows us to optimize the code as we are running.
+Hence, Interpreter allows us to run the code right away and the compiler and profiler allows us to optimise the code as we are running.
 
 ### Babel + TypeScript ḆṮ
 
@@ -94,7 +94,7 @@ Both of these do exactly what compilers do: Take one language and convert into a
 **Pros and Cons of Interpreter and compiler:**
 
 1. Complier take little bit longer to get up and running but the code is eventually run faster .
-2. Interpreter that is really fast to get up and running but doesn't do any optimizations.
+2. Interpreter that is really fast to get up and running but doesn't do any optimisations.
 
 **❓ Is there anything we can get the best of both? ❓**
 
@@ -104,7 +104,7 @@ Using the <mark>Profiler</mark>, as the code is running through our interpreter 
 
 #### Is Javascript an interpreted language ❓ 
 
-Yes, when Javascript first came out you had Javascript engine such as spider monkey that interpreted Javascript to byte code which tells browser what to do. But now we also use complier to optimize the code.
+Yes, when Javascript first came out you had Javascript engine such as spider monkey that interpreted Javascript to byte code which tells browser what to do. But now we also use complier to optimise the code.
 
 ## Memory Heap and Call Stack 📚
 
@@ -156,7 +156,7 @@ for(let i = 5; i > 1; i++) {
 1. Don't have too many global variables
 2. Event listener
 
-    You never remove the below addEventListener , when you don't need them. SO keep adding event listeners.
+    You never remove the below addEventListener , when you don't need them. So keep adding event listeners.
 
     ```javascript
     var el = document.getElementById('button')
@@ -180,7 +180,7 @@ Web browser is working in background, while the synchronous Javascript code is r
 
 Web API comes with browser. These web API can do many things like send http request, listen to DOM event, delay execution using callback, database storage.
 
-<u>Exmaple:</u>
+<u>Example:</u>
 
 If you console log window you will understand what are property has been provided by browser.
 
@@ -194,9 +194,9 @@ Browser uses C++ languages to perform all the above operation.
 
 These web API are called asynchronous.
 
-So if any callback or web API call like `settimeout` goes to `call stack` then it will not understand what to do with it, so it send the callback to web API, and web API will take care of it. Once the web API will be done with the callback than it send to callback queue and event loop will take care of it from now. Event loop will communicate with call stack and callback queue, that if call stack is empty than add the callback queue task to call stack.
+So if any callback or web API call like `settimeout` goes to `call stack` then it will not understand what to do with it, so it send the callback to web API, and web API will take care of it. Once the web API will be done with the callback than it send to callback queue and event loop will take care of it from now. Event loop will communicate with call stack and callback queue, that if call stack is empty then add the callback queue task to call stack.
 
-<u>Exmaple:</u>
+<u>Example:</u>
 
 ```js
 console.log("1");
@@ -228,4 +228,3 @@ Once it clear, Event loop will take `console.log("2")` and prints.
 ### Reference 🧐
 
 - <LinkPost href="http://latentflip.com/loupe" name="Loupe" />
-- <LinkPost href="https://replit.com/@aneagoie/Javascript-Runtime" name="Javascript runtime" />

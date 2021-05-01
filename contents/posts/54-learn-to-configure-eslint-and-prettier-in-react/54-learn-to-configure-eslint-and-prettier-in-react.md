@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/54-learn-to-configure-eslint-and-prettier-in-react.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

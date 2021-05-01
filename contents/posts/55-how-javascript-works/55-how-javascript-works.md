@@ -1,5 +1,5 @@
 ---
-title: How JavsScript Works
+title: How JavaScript Works 🤷🏻‍♀️
 slug: /55-how-javascript-works
 date: 2021-05-01
 desc: Read Javascript engine, Javascript runtime, single thread, compiler and interpreted language

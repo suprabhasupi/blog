@@ -26,6 +26,7 @@ import HowJSWorks9 from './9.png'
 <p><span class='first-letter'>U</span>nderstanding the fundamentals is priceless. So let's discuss the fundamental that how Javascript works 🤔</p>
 
 ## How JavaScript Works? 🤷🏻‍♀
+<ImgPost src={HowJSWorks1} alt="how javascript works" width={75} />
 
 Understanding how JavaScript works makes reading and writing code easier and less frustrating and allows you to focus on the logic of your application instead of fighting with the grammar of the language.
 

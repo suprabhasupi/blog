@@ -122,7 +122,7 @@ The error will come as:
 
 <p class="error">Uncaught RangeError: Maximum call stack size exceeded</p>
 
-### Garbage Collection  ⃥
+### 🗑 Garbage Collection 
 
 Javascript is garbage collected language.
 

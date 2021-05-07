@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/55-how-javascript-works.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

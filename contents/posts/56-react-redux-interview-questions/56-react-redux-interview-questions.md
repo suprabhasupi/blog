@@ -7,8 +7,8 @@ cover:
   img: ../../../photos/56-react-redux-interview-questions.png
 banner: ../../banners/56-react-redux-interview-questions.png
 tags:
+    - React
     - JS
-priority: 1
 ---
 
 <p><span class='first-letter'>I</span> prepared list of react and redux interview question, Few question I faced in my journey and few of the question I have referred from Google itself 😂</p>

@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/57-remove-duplicate-from-array.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

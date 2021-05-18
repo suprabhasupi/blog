@@ -1,7 +1,7 @@
 ---
 title: Use Javascript console like pro
 slug: /58-use-javascript-console-like-pro
-date: 2021-05-20
+date: 2021-05-18
 desc: Lets talk about most of the console methods which everyone should start using.
 cover:
   img: ../../../photos/58-use-javascript-console-like-pro.png

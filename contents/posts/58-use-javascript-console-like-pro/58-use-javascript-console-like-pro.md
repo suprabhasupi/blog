@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/58-use-javascript-console-like-pro.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/59-changing-cursor-with-css-for-better-ux.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

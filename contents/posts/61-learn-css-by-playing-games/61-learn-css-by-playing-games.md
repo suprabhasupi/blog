@@ -13,9 +13,9 @@ priority: 1
 
 import LinkPost from '../../../src/components/linkPost'
 import ImgPost from '../../../src/components/imgPost'
-import FlexBoxFroggy1 from './1-flexbox-froggy.jpeg'
-import FlexZombies2 from './2-flexbox-zombies.jpeg'
-import FlexboxDefence3 from './3-flexbox-defence.jpeg'
+import FlexBoxFroggy1 from './1-froggy.jpeg'
+import FlexZombies2 from './2-zombies.jpeg'
+import FlexboxDefence3 from './3-defence.jpeg'
 import GridGarden4 from './4-gridgarden.jpeg'
 import CSSBattle5 from './5-cssbattle.png'
 import CSSDiner6 from './6-css-diner.jpeg'

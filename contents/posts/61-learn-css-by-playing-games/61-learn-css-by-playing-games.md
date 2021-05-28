@@ -14,7 +14,7 @@ priority: 1
 import LinkPost from '../../../src/components/linkPost'
 import ImgPost from '../../../src/components/imgPost'
 import FlexBoxFroggy1 from './1-flexbox-froggy.jpeg'
-import FlexboxZombies2 from './2-flexbox-zombies.jpeg'
+import FlexZombies2 from './2-flexbox-zombies.jpeg'
 import FlexboxDefence3 from './3-flexbox-defence.jpeg'
 import GridGarden4 from './4-gridgarden.jpeg'
 import CSSBattle5 from './5-cssbattle.png'
@@ -43,7 +43,8 @@ Yeah, last level is bit challenging  😉
 
 ### 2. <LinkPost href="https://mastery.games/flexboxzombies/" name="Flexbox Zombies" /> 
 
-<ImgPost src={FlexboxZombies2} alt="FlexBox Zombies" />
+<ImgPost src={FlexZombies2} alt="FlexBox Zombies" />
+
 Here we use Flexbox to position the hero’s crossbow and hit the zombies and survive along the game.
 Each section unravels part of the plot, gives you expertise over a new flexbox concept, and presents zombie survival challenges that force you to solidify your new skills like your life depends on it.
 

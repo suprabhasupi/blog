@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/60-css-placeholder-and-placeholder-shown.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

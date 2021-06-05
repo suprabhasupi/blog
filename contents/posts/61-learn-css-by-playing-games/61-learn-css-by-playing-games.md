@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/61-learn-css-by-playing-games.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
@@ -133,3 +132,4 @@ This isn't exactly a game but more an interactive presentation about CSS 3D Tran
 
 Your journey to master CSS Grid begins on the mysterious planet Grideros. Your mission is to use your ship's powerful Grid tool to save alien critters from extinction. A registration is required.
 
+<a href="https://www.buymeacoffee.com/suprabhasupi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 200px;" /></a>

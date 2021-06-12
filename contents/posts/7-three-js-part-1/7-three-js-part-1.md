@@ -221,5 +221,5 @@ Need to take care of few points:
 
 We have covered the basics concept of asics of three.js, bject 3D Properties and how can we manipulate objects.
 
-We’ll check <LinkPost href='/8-three-js-part-2' name='Introducing Meshes and Geometry' /> in next section. 😋
+We’ll check <LinkPost href='/13-three-js-part-2' name='Introducing Meshes and Geometry' /> in next section. 😋
 

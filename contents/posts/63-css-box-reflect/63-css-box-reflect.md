@@ -16,7 +16,7 @@ import ImgPost from '../../../src/components/imgPost'
 import BoxReflect1 from './1.png'
 import BoxReflectSupport1 from './2.png'
 
-<p><span class='first-letter'>T</span> he `-webkit-box-reflect` CSS property lets you reflect the content of an element in one specific direction.</p>
+<p><span class='first-letter'>T</span>he `-webkit-box-reflect` CSS property lets you reflect the content of an element in one specific direction.</p>
 
 We can create the reflections using the box-reflect property.
 
@@ -24,7 +24,7 @@ We can create the reflections using the box-reflect property.
 /* Direction values */
 -webkit-box-reflect: above / below / left /  right;
 
-/* can aslo add offset value */
+/* can also add offset value */
 -webkit-box-reflect: below 10px;
 
 /* even add gradient */

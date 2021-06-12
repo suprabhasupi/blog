@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/62-css-container-query.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

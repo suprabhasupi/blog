@@ -3,8 +3,6 @@ title: Three JS (part-2)
 slug: /13-three-js-part-2
 date: 2019-03-23
 desc: Meshes and Geometry in Three-js
-# Old URL
-# Minute Read
 cover:
   img: ../../../photos/13-three-js-part-2.png
 banner: ../../banners/13-three-js-part-2.png
@@ -22,12 +20,26 @@ import TrianglesType from './4.png'
 ## Introducing Meshes and Geometry
 
 <mark><span class='first-letter'>M</span>eshes:</mark>
+
+<ImgPost src={TrianglesType} alt="types of triangle" />
+
 Meshes are made up of two different things:
 
-1. Geometry
-2. Material
+1. Material
+2. Geometry
 
-### 1️⃣ Geometry
+### 1️⃣ Material
+
+A material defines a covering for skeleton structure. There are lots of different types of material in Three.js:
+
+- dull
+- mate-like material
+- shiny
+- slightly transparent material
+
+Material are a big area and have their own module.
+
+### 2️⃣ Geometry
 
 It’s made of an array which is X, Y and Z coordinate called vertices. They          are linked together with faces(___).
 
@@ -36,20 +48,10 @@ It’s made of an array which is X, Y and Z coordinate called vertices. They    
 - Faces
 
 **There are three types of geometry:**
-<ImgPost src={TrianglesType} alt="types of triangle" />
-A. Inbuilt Geometry
-B. Custom Geometry
-C. Exported Geometry(geometric exported from three js modelling packages )
 
-### 2️⃣ Material
-
-A material defines a covering for skeleton structure. There are lots of different types of material in Three.js:
-
-We can create a dull, mate-like material or shiny , slightly  transparent material.
-
-Material are a big area and have their own module.
-
-**Types of Geometry:**
+#### A. Inbuilt Geometry
+#### B. Custom Geometry
+#### C. Exported Geometry (geometric exported from three js modelling packages )
 
 ### A. Inbuilt Geometry 📐
 

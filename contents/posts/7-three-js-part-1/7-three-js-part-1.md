@@ -219,7 +219,7 @@ Need to take care of few points:
 - The scene should come under the camera near and far position.
 
 
-We have covered the basics concept of asics of three.js, bject 3D Properties and how can we manipulate objects.
+We have covered the basics concept of three.js, object 3D Properties and how can we manipulate objects.
 
 We’ll check <LinkPost href='/13-three-js-part-2' name='Introducing Meshes and Geometry' /> in next section. 😋
 

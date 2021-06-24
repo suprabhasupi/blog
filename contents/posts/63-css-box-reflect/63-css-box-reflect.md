@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/63-css-box-reflect.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

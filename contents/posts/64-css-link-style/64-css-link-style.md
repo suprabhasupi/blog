@@ -89,7 +89,7 @@ div:focus-within {
 }
 ```
 
-<h1 id="focus-visible">6. :focus-visible**</h1>
+<h1 id="focus-visible">6. :focus-visible</h1>
 
 The `:focus-visible` pseudo-class applies to provide a different focus indicator based on the user’s input modality (mouse vs. keyboard).
 

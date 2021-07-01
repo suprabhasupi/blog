@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/64-css-link-style.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

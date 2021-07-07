@@ -75,7 +75,7 @@ A block level element has a top and a bottom margin, whereas an inline element d
 - section
 
 ```css
-span {
+.block {
     display: block;
     padding: 5px;
     border: 5px dashed #ff527b;

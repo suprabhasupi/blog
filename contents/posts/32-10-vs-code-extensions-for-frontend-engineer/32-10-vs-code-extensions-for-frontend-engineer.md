@@ -23,7 +23,7 @@ import PolaCode from './6-polacode.png'
 import VSCodeIcons from './7-vscode-icons.png'
 import OpenInBrowser from './8-open-browser.png'
 import EsLint from './9-eslint.png'
-import MarkDownPreview from './10-markdown.png'
+import MarkDownPreview from './markdown.png'
 
 <p><span class='first-letter'>V</span>isual Studio Code, has a whole lot of extensions, they come with a kind of Extension-store (just like App store for your apps) called Market Place. There are extensions for debugging code, formatting code, key maps, development technologies (like heroku, github, docker, azure), IDE themes, code linters, code snippets and many other categories.</p>
 

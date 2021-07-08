@@ -51,7 +51,7 @@ Inline elements takes there own width and height, <b>you can not apply the width
 ```css
 .inline {
     padding: 5px;
-    border: 5px dashed #ff527b; /* ❌ It will not work */
+    border: 5px dashed #ff527b;
     width: 200px; /* ❌ It will not work */
 }
 ```

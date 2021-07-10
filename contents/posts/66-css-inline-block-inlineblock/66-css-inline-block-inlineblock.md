@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/66-css-inline-block-inlineblock.png
 tags:
     - CSS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

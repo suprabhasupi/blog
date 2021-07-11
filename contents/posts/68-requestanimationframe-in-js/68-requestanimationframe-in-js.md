@@ -93,7 +93,7 @@ Checkout the **codepen** here for more details:
 
 ## Summary ∑
 
-If you do any animation on browser and wanted it to be optimised, then would highly recoomend to use requestAnimationFrame web API.
+If you do any animation on browser and wanted it to be optimised, then would highly recommend to use requestAnimationFrame web API.
 
 Thanks for reading the article ❤️
 

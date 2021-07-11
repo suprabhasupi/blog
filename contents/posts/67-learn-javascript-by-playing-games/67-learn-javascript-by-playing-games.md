@@ -21,6 +21,7 @@ import CodeCombat from './6.png'
 import Screeps from './7.png'
 import Crunchzilla from './8.png'
 import ElevatorSage from './9.png'
+import Untrusted from './10.png'
 
 <p><span class='first-letter'>Y</span>ou will learn the basics of JavaScript by creating the following ten games:</p>
 
@@ -68,6 +69,8 @@ CodeCombat is an HTML5 role-playing game (RPG) that teaches you fundamental prog
 Screeps is a fun game and has a unique angle to it.
 
 ### 8️⃣ <LinkPost href="https://alexnisnevich.github.io/untrusted/" name="Untrusted" />
+
+<ImgPost src={Untrusted} alt="Untrusted javascript gaming" />
 
 The game presents you with a roguelike-like playing environment and a console window with the JavaScript code generating each level.
 

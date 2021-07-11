@@ -7,8 +7,7 @@ cover:
   img: ../../../photos/67-learn-javascript-by-playing-games.png
 banner: ../../banners/67-learn-javascript-by-playing-games.png
 tags:
-    - js
-priority: 1
+    - JS
 ---
 
 import LinkPost from '../../../src/components/linkPost'

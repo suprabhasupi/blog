@@ -2,7 +2,7 @@
 title: RequestAnimationFrame in JavaScript
 slug: /68-requestanimationframe-in-js
 date: 2021-07-12
-desc: You will learn the basics of JavaScript by creating the following ten games
+desc: Understand requestAnimationFrame which calls itself to paint the next frame
 cover:
   img: ../../../photos/68-requestanimationframe-in-js.png
 banner: ../../banners/68-requestanimationframe-in-js.png

@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/68-requestanimationframe-in-js.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'

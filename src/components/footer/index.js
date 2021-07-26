@@ -4,6 +4,8 @@ import "./style.scss"
 import FooterCurve from '../../images/footer-curve.svg'
 import TreeBottom from '../../images/tree_bottom.svg'
 import { Twitter, Github, DevTo, Instagram, Linkedin, StackOverflow, Medium, Codepen } from 'styled-icons/boxicons-logos'
+import { BookHeart } from 'styled-icons/boxicons-solid'
+import { Hashnode, Buymeacoffee } from 'styled-icons/simple-icons'
 
 const Footer = () => (
   <footer>
@@ -11,6 +13,7 @@ const Footer = () => (
     <div className='footer-info'>
     <div className='social-icons-copyright'>
       <div className='social-icons'>
+      <a href="https://gum.co/css-pseudo-class-elements"> <BookHeart size="2em" /> </a>
       <a href="https://github.com/suprabhasupi"> <Github size="2em" /> </a>
       <a href="https://codepen.io/suprabhasupi"> <Codepen size="2em" /> </a>
       <a href="https://dev.to/suprabhasupi"> <DevTo size="2em" /> </a>
@@ -19,6 +22,8 @@ const Footer = () => (
       <a href="https://stackoverflow.com/users/8284147/suprabha"> <StackOverflow size="2em" /> </a>
       <a href="https://twitter.com/suprabhasupi"> <Twitter size="2em" /> </a>
       <a href="https://medium.com/@suprabhasupi"> <Medium size="2em" /> </a>
+      <a href="https://www.buymeacoffee.com/suprabhasupi"> <Buymeacoffee size="2em" /> </a>
+      <a href="https://suprabhasupi.hashnode.dev"> <Hashnode size="2em" /> </a>
       </div>
     </div>
 
@@ -28,6 +33,10 @@ const Footer = () => (
       </li>
       <li>
         <Link to="/contact-us"> Contact Us </Link>
+      </li>
+
+      <li>
+        <Link to="https://www.buymeacoffee.com/suprabhasupi"> Support Me </Link>
       </li>
     </ul>
       </div>  

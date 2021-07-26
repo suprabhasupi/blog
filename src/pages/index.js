@@ -12,6 +12,7 @@ import usePosts from "../hooks/use-posts"
 import TagList from "../components/tagList"
 import { Calendar } from "styled-icons/boxicons-regular"
 import { Twitter, Instagram } from 'styled-icons/boxicons-logos'
+import { BookHeart } from 'styled-icons/boxicons-solid'
 
 import { useQueryParam } from "../hooks/useQueryParam.js"
 
@@ -43,6 +44,7 @@ const IndexPage = ({ data }) => {
           <div className='follow'>
             <a href='https://twitter.com/suprabhasupi'><Twitter size='3em' /></a>
             <a href='https://instagram.com/suprabhasupi'><Instagram size='3em' /></a>
+            <a href='https://gum.co/css-pseudo-class-elements'><BookHeart size='3em' /></a>
           </div>
         </div>
         <div className="new-post">

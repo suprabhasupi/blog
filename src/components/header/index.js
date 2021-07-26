@@ -15,6 +15,10 @@ const Header = () => (
       <li>
         <Link to="https://suprabha.me/"> Portfolio </Link>
       </li>
+
+      <li>
+        <Link to="https://www.buymeacoffee.com/suprabhasupi"> Support Me </Link>
+      </li>
       {/* <li>
         <Link to="/contact-us"> Contact Us </Link>
       </li> */}

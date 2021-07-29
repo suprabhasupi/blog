@@ -8,11 +8,9 @@ cover:
 banner: ../../banners/69-array-flatmap.png
 tags:
     - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
-import ImgPost from '../../../src/components/imgPost'
 
 <p><span class='first-letter'>F</span>latMap is a single method which can be usable for flat and map methods.</p>
 

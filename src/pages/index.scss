@@ -46,8 +46,8 @@ h3 {
     padding: 40px;
     position: relative;
     // background-image: linear-gradient(to right,#ffffff, #fdc7d5); // pink
-    // background-image: linear-gradient(to right,#ffffff, #F0DB4F); // yellow
-    background-image: linear-gradient(to right,#ffffff, #8c9090);
+    background-image: linear-gradient(to right, #ffffff, #f0db4f); // yellow
+    // background-image: linear-gradient(to right,#ffffff, #8c9090);
     // background-image: linear-gradient(to right,#ffffff, #89D068); // green
     // background-image: linear-gradient(to right, #ffffff, #FFBE59);
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
@@ -100,10 +100,10 @@ h3 {
       width: 100%;
       padding: 2rem 1rem;
       // background-image: linear-gradient(to bottom, #ffffff, #fdc7d5); // pink
-      background-image: linear-gradient(to bottom, #ffffff, #8c9090);
+      // background-image: linear-gradient(to bottom, #ffffff, #8c9090);
       // background-image: linear-gradient(to bottom, #ffffff, #ff914e); // orange
-      // background-image: linear-gradient(to bottom, #ffffff, #F0DB4F); //yellow
-      // background-image: linear-gradient(to bottom, #ffffff, #FFBE59); 
+      background-image: linear-gradient(to bottom, #ffffff, #f0db4f); //yellow
+      // background-image: linear-gradient(to bottom, #ffffff, #FFBE59);
       .new-post-wrap {
         display: block;
       }
@@ -120,12 +120,12 @@ h3 {
   }
 }
 
-@media print { 
+@media print {
   /* All your print styles go here */
   body {
     width: 100%;
-  } 
+  }
   footer {
     display: none;
   }
- }
+}

@@ -128,7 +128,7 @@ code {
 mark {
   display: inline;
   line-height: 0;
-  border-radius: .25em;
+  border-radius: 0.25em;
   color: black;
   background: url(../../images/highlight.svg);
   background-repeat: no-repeat;
@@ -142,6 +142,10 @@ blockquote {
   border-left: 4px solid #fe5c71;
   padding-left: 1rem;
   line-height: 1.8;
+}
+
+blockquote p {
+  font-size: 1.5rem !important;
 }
 
 .d-f {

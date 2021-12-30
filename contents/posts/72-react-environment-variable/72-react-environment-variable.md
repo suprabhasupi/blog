@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/72-react-environment-variable.png
 tags:
   - React
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
@@ -103,7 +102,7 @@ REACT_APP_NAME=ProjectName
 
 ### Reference 🧐
 
-- <LinkPost href="https://create-react-app.dev/docs/adding-custom-environment-variables/" name="CRA adding custome environment variables" />
+- <LinkPost href="https://create-react-app.dev/docs/adding-custom-environment-variables/" name="CRA adding custom environment variables" />
 - <LinkPost href="https://create-react-app.dev/docs/deployment/#customizing-environment-variables-for-arbitrary-build-environments" name="CRA deployment docs" />
 - <LinkPost href="https://create-react-app.dev/docs/deployment/#customizing-environment-variables-for-arbitrary-build-environments" name="CRA env variables for build env" />
 

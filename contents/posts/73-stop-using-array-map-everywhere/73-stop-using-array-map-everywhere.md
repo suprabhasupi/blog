@@ -1,7 +1,7 @@
 ---
 title: Stop using Array.map() everywhere 🥵
 slug: /73-stop-using-array-map-everywhere
-date: 2021-12-30
+date: 2021-12-31
 desc: Stop using map method if you just need to iterate through an array.
 cover:
   img: ../../../photos/73-stop-using-array-map-everywhere.png

@@ -17,7 +17,7 @@ import css2 from './2.png'
 import css3 from './3.png'
 import css4 from './4.gif'
 
-<p><span class='first-letter'>T</span>he `:placeholder-shown` CSS pseudo-class represents any `<input>` or `<textarea>` element that is currently displaying placeholder text.</p>
+<p><span class='first-letter'>T</span>he `:placeholder-shown` CSS pseudo-class represents any `<input/>` or `<textarea></textarea>` element that is currently displaying placeholder text.</p>
 
 ```html
 <input type="text" placeholder="some text" />
@@ -69,7 +69,7 @@ input:placeholder-shown {
 
 Here, we set `color: blue`, but it didn't work. That's because `:placeholder-shown` will only target the input itself. But for the actual placeholder text, you have to use the pseudo-element `::placeholder`.
 
-`::placeholder` pseudo-element can be used to style the placeholder text in `<input>` or `<textarea>` element. 
+`::placeholder` pseudo-element can be used to style the placeholder text in `<input/>` or `<textarea/>` element. 
 
 ```css
 input::placeholder {

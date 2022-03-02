@@ -33,7 +33,7 @@ import OutputGif from './output_gif.gif'
 import FriendsGif from './friends.gif'
 import MixBlendModeGif from './mix-blend-mode.gif'
 
-<p><span class='first-letter'>T</span>he **`<blend-mode>`** CSS, <LinkPost href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types' name='data type' /> describes how colors should appear when elements overlap. It is used in the <LinkPost href='https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode' name='background-blend-mode' /> and <LinkPost href='https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode' name ='mix-blend-mode' /> properties.</p>
+<p><span class='first-letter'>T</span>he **`<blend-mode/>`** CSS, <LinkPost href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types' name='data type' /> describes how colors should appear when elements overlap. It is used in the <LinkPost href='https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode' name='background-blend-mode' /> and <LinkPost href='https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode' name ='mix-blend-mode' /> properties.</p>
 
 For each pixel among the layers to which it is applied, a blend mode takes the colors of the foreground and the background, perfoms a calculation on them, and returns a new color value. 💥
 

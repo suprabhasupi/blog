@@ -34,6 +34,7 @@ There are few convention we can use:
 To add config-conventional into project,
 
 Install `@commitlint/config-conventional`:
+
 ```sh
 $ yarn add @commitlint/config-conventional
 ```
@@ -41,6 +42,7 @@ $ yarn add @commitlint/config-conventional
 Create `commitlint.config.js` in root of the project:
 
 <u>commitlint.config.js:</u>
+
 ```js
 module.exports = {extends: ['@commitlint/config-conventional']};
 ```
@@ -72,6 +74,7 @@ You can add Git hooks in two easy steps:
   ```
 
 - Add Hook
+
 ```sh
 $ yarn husky add .husky/commit-msg "yarn commitlint --edit $1"
 ```

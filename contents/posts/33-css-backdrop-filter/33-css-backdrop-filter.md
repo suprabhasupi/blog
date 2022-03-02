@@ -25,7 +25,7 @@ import BrowserSupport from './2-browser-support.png'
 backdrop-filter: <filter-function> [<filter-function>]* | none
 ```
 
-<p>`<filter-function>` can be any one of the following:</p>
+<p> `<filter-function/>`  can be any one of the following:</p>
 
 - blur()
 - brightness()
@@ -39,7 +39,7 @@ backdrop-filter: <filter-function> [<filter-function>]* | none
 - sepia()
 - url() – (for applying SVG filters)
 
-You can apply multiple `<filter-function>` to a backdrop.
+You can apply multiple `<filter-function/>` to a backdrop.
 
 <u>Example:</u>
 

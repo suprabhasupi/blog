@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/73-stop-using-array-map-everywhere.png
 tags:
   - JS
-priority: 1
 ---
 
 <span class='first-letter'>M</span>ost of the time I used to see the snippet like this 👇

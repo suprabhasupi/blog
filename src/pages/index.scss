@@ -46,10 +46,10 @@ h3 {
     padding: 40px;
     position: relative;
     // background-image: linear-gradient(to right,#ffffff, #fdc7d5); // pink
-    background-image: linear-gradient(to right, #ffffff, #f0db4f); // yellow
+    // background-image: linear-gradient(to right, #ffffff, #f0db4f); // yellow
     // background-image: linear-gradient(to right,#ffffff, #8c9090);
     // background-image: linear-gradient(to right,#ffffff, #89D068); // green
-    // background-image: linear-gradient(to right, #ffffff, #949494);
+    background-image: linear-gradient(to right, #ffffff, #41518c);
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
     border-radius: 14px;
@@ -102,8 +102,8 @@ h3 {
       // background-image: linear-gradient(to bottom, #ffffff, #fdc7d5); // pink
       // background-image: linear-gradient(to bottom, #ffffff, #8c9090);
       // background-image: linear-gradient(to bottom, #ffffff, #ff914e); // orange
-      background-image: linear-gradient(to bottom, #ffffff, #f0db4f); //yellow
-      // background-image: linear-gradient(to bottom, #ffffff, #949494);
+      // background-image: linear-gradient(to bottom, #ffffff, #f0db4f); //yellow
+      background-image: linear-gradient(to bottom, #ffffff, #41518c);
       .new-post-wrap {
         display: block;
       }

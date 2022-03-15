@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/74-git-reflog.png
 tags:
   - Other
-priority: 1
 ---
 
 <p><span class='first-letter'>B</span>y the name <b>git reflog</b> - Manages reflog information. It keeps tracks of everything which you do locally.</p>

@@ -8,7 +8,6 @@ cover:
 banner: ../../banners/75-javascript-proxy.png
 tags:
   - JS
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
@@ -24,7 +23,7 @@ let proxy = new Proxy(target, handler);
 - `target` – is an object to wrap, can be anything, including functions.
 - `handler` – proxy configuration: an object with “traps”, methods that intercept operations. – e.g. `get` trap for reading a property of `target`, `set` trap for writing a property into `target`, and so on.
 
-Let's look a quick example by defining an object called user::
+Let's look a quick example by defining an object called user:
 
 ```js
 const user = {

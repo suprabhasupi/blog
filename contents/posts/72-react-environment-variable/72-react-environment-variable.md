@@ -108,6 +108,6 @@ REACT_APP_NAME=ProjectName
 
 ### Summary ⅀
 
-If you want to add any other env which is not mentioned in react app, you have to setup `env-cmd` and can usew it. Also, you can use `.env` varibales in HTML file using `REACT_APP_`
+If you want to add any other env which is not mentioned in react app, you have to setup `env-cmd` and can use it. Also, you can use `.env` varibales in HTML file using `REACT_APP_`
 
 I hope you love the article. If you have any question, feel free to ping me on <LinkPost href='https://twitter.com/suprabhasupi' name='Twitter' /> | <LinkPost href='http://instagram.com/suprabhasupi' name='Instagram' /> 😋

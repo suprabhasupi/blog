@@ -9,15 +9,13 @@ banner: ../../banners/76-centralization-vs-decentralization.png
 tags:
   - JS
   - Web3
-priority: 1
 ---
 
-import LinkPost from '../../../src/components/linkPost'
 import ImgPost from '../../../src/components/imgPost'
 import Centralization from './1.png'
 import Decentralization from './2.png'
 
-You have heard about **decentralization** a lot in Web 3.0 topic. Let's understand centralization and decentralization in deep 👇
+<p><span class='first-letter'>Y</span>ou have heard about **decentralization** a lot in Web 3.0 topic. Let's understand centralization and decentralization in deep 👇 </p>
 
 ### <mark>Decentralization is a core tenet of Web 3.0</mark>
 

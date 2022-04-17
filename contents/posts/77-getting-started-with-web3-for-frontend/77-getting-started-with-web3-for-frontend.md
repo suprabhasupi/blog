@@ -170,7 +170,7 @@ The goal is to make internet data machine-readable.
 - Web 3.0 will be complicated for newcomers to grasp the concept.
 - Only advanced devices will be able to handle Web 3.0 locking out the population that can’t afford such devices.
 - UX- interacting with web3 applications can require extra steps, software, and education.
-- most successful Dapps put very small portions of their code on the blockchain as it's expensive.
+- Most successful Dapps put very small portions of their code on the blockchain as it's expensive.
 - People will spend too much time on the internet.
 
 ### Roadmap of Web 3.0 🛣

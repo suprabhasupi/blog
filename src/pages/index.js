@@ -11,8 +11,8 @@ import PostTemplate from "../templates/post"
 import usePosts from "../hooks/use-posts"
 import TagList from "../components/tagList"
 import { Calendar } from "styled-icons/boxicons-regular"
-import { Twitter, Instagram } from 'styled-icons/boxicons-logos'
-import { BookHeart } from 'styled-icons/boxicons-solid'
+import { Twitter, Instagram } from "styled-icons/boxicons-logos"
+import { BookHeart } from "styled-icons/boxicons-solid"
 
 import { useQueryParam } from "../hooks/useQueryParam.js"
 
@@ -34,32 +34,51 @@ const IndexPage = ({ data }) => {
   const filteredPosts = filterPostsByTag(activeTag, posts)
   return (
     <Layout>
-      <SEO title="Suprabha" description="Weekly sharing new JS, HTML, CSS articles and focus on journey of frontend engineer 🔥" />
+      <SEO
+        title="Suprabha"
+        description="Weekly sharing new JS, HTML, CSS articles and focus on journey of frontend engineer 🔥"
+      />
 
       <div className="blog-pg">
         <div>
           <h1>Suprabha Blog</h1>
-          <p>Weekly sharing new <mark>JS, HTML, CSS</mark> articles! 🔥</p>
+          <p>
+            Weekly sharing new <mark>JS, HTML, CSS, React</mark> articles! 🔥
+          </p>
           <b>Follow @suprabhasupi for new ideas every day 😍 </b>
-          <div className='follow'>
-            <a href='https://twitter.com/suprabhasupi'><Twitter size='3em' /></a>
-            <a href='https://instagram.com/suprabhasupi'><Instagram size='3em' /></a>
-            <a href='https://gum.co/css-pseudo-class-elements'><BookHeart size='3em' /></a>
+          <div className="follow">
+            <a href="https://twitter.com/suprabhasupi">
+              <Twitter size="3em" />
+            </a>
+            <a href="https://instagram.com/suprabhasupi">
+              <Instagram size="3em" />
+            </a>
+            <a href="https://gum.co/css-pseudo-class-elements">
+              <BookHeart size="3em" />
+            </a>
           </div>
         </div>
         <div className="new-post">
-          {posts.map((post, i) => (post.priority ? <Link to={post.slug} key={i}>
-            <div className='new-post-wrap'>
-            <Image className="new-post-cover" fluid={post.img.sharp.fluid} />
-            <div className="new-post-info">
-              <h3>{post.title}</h3>
-              <p className='date'>
-              <Calendar size="1em" /><span> {post.date}</span>
-              </p>
-              <p className='desc'>{post.desc}</p>
-            </div>
-          </div>
-          </Link> : null))}
+          {posts.map((post, i) =>
+            post.priority ? (
+              <Link to={post.slug} key={i}>
+                <div className="new-post-wrap">
+                  <Image
+                    className="new-post-cover"
+                    fluid={post.img.sharp.fluid}
+                  />
+                  <div className="new-post-info">
+                    <h3>{post.title}</h3>
+                    <p className="date">
+                      <Calendar size="1em" />
+                      <span> {post.date}</span>
+                    </p>
+                    <p className="desc">{post.desc}</p>
+                  </div>
+                </div>
+              </Link>
+            ) : null
+          )}
         </div>
       </div>
       <div className="blog-info">

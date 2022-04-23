@@ -9,7 +9,6 @@ banner: ../../banners/77-getting-started-with-web3-for-frontend.png
 tags:
   - JS
   - Web3
-priority: 1
 ---
 
 import ImgPost from '../../../src/components/imgPost'

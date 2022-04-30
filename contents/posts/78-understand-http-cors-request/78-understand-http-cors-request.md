@@ -2,7 +2,7 @@
 title: Understand HTTP CORS Request
 slug: /78-understand-http-cors-request
 date: 2022-04-23
-desc: Understand HTTP method OPTIONS which used to exectue prior to GET/POST/PUT/DELETE methods.
+desc: Understand HTTP method OPTIONS which used to execute prior to GET/POST/PUT/DELETE methods.
 cover:
   img: ../../../photos/78-understand-http-cors-request.png
 banner: ../../banners/78-understand-http-cors-request.png
@@ -15,7 +15,7 @@ priority: 1
 import ImgPost from '../../../src/components/imgPost'
 import LinkPost from '../../../src/components/linkPost'
 
-<p><span class='first-letter'>Y</span>ou always used HTTP methods like GET/POST/PUT/DELETE, there is one more methods called <mark>OPTIONS</mark> which used to exectue prior to GET/POST/PUT/DELETE methods.</p>
+<p><span class='first-letter'>Y</span>ou always used HTTP methods like GET/POST/PUT/DELETE, there is one more methods called <mark>OPTIONS</mark> which used to execute prior to GET/POST/PUT/DELETE methods.</p>
 
 ## What is CORS 🤔
 

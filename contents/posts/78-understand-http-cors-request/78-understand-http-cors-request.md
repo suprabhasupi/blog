@@ -9,7 +9,6 @@ banner: ../../banners/78-understand-http-cors-request.png
 tags:
   - JS
   - Other
-priority: 1
 ---
 
 import ImgPost from '../../../src/components/imgPost'

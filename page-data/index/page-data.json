@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"allMdx":{"tags":[{"title":"AWS","count":2},{"title":"CSS","count":20},{"title":"GO","count":4},{"title":"Gatsby","count":8},{"title":"HTML","count":3},{"title":"JS","count":31},{"title":"Other","count":7},{"title":"React","count":11},{"title":"Web3","count":2},{"title":"Webpack","count":3}]}},"pageContext":{}},
+    "staticQueryHashes": ["1691836396","2011407868"]}

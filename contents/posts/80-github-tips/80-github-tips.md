@@ -16,7 +16,7 @@ import LinkPost from '../../../src/components/linkPost'
 <p><span class='first-letter'>T</span>his article is for beginners as well as for the experts 😉, 
 as this is going to help you to avoid all the pitfalls that could lead to failure state.</p>
 
-Here, you will learn efficient way to start the projects and push it into Github/Gitlab.
+Here, you will learn efficient ways to start the projects and push them into Github/Gitlab.
 
 Let’s see what we are going to learn in this article:
 
@@ -40,11 +40,11 @@ Once you have done the setup, will be able to push the changes into github.
 
 ### 1. Synchronize Local with Remote
 
-It is important to always ensure that you have the repository on your local machine. There are two things can happen:
+It is important to always ensure that you have the repository on your local machine. There are two things that can happen:
 
 A. **You can create your *own repository* **
 
-1. Go to the repository directoy
+1. Go to the repository directory
 
     ```sh
     $ cd project-name
@@ -56,14 +56,14 @@ A. **You can create your *own repository* **
     $ git init
     ```
 
-B. **If you are working from others repository**
+B. **If you are working from another repository**
 
 1. To clone the repository locally.
     ```sh
     $ git clone [git@github.com](mailto:git@github.com):suprabhasupi/suprabha.me.git
     ```
     
-    Yuppy! Now have cloned the repository local.
+    Yuppy! Now have cloned the repository locally.
 
 ### 2. Branch
 
@@ -77,7 +77,7 @@ You can create a new branch by following command:
 
 `$ git branch branch_name`
 
-The above command will create a new branch. So to confirm the branch names you can enter following command:
+The above command will create a new branch. So to confirm the branch names you can enter the following command:
 
 ```sh
 $ git branch
@@ -92,7 +92,7 @@ To switch from `main` to `branch_name`, or any other branch:
 $ git checkout branch_name
 ```
 
-If you want to create a new branch and switch into it, you can use following command:
+If you want to create a new branch and switch to it, you can use the following command:
 
 ```sh
 $ git checkout -b branch_name
@@ -134,13 +134,13 @@ Let’s add, commit and push your work into the remote repository.
 
 ### Here are a few tips that can help you save time when working with Git:
 
-1. **Let’s say you have deleted a file a month back, but one day you needed it. How can you get the latest state of the file which has been already deleted?**
+1. **Let’s say you deleted a file a month back, but one day you needed it. How can you get the latest state of the file which has been already deleted?**
     
-    **Ans:** This is the command which help you to find the commit log of that particular file:
+    **Ans:** This is the command which helps you to find the commit log of that particular file:
     ```sh
     $ git log --full-history -- ${file_path}
     ```
-    The above command finds the commitID that deleted the file. 
+    The above command finds the commit ID that deleted the file. 
     After checking the commits, and backed up one more by entering the below command:
     ```sh
     $ git checkout HEAD~1
@@ -151,9 +151,9 @@ Let’s add, commit and push your work into the remote repository.
 2. **Resolve Conflict**
     
     Let’s say, you took a pull from main branch and you had a conflict. 
-    There are few command which will help you in terms of fixing or aborting the conflict.
+    There are a few commands which will help you in terms of fixing or aborting the conflict.
     
-    This command will help to see list of commits which caused conflict
+    This command will help to see a list of commits that caused conflict
     ```sh
     $ git log --merge
     ```
@@ -174,7 +174,7 @@ Let’s add, commit and push your work into the remote repository.
 
 4. **Do you know you can store temporary commits as well in local?**
 
-    Yes, you can stash your changes and when you want those changes back you can get it back.
+    Yes, you can stash your changes and when you want those changes back you can get them back.
     
     *Check out these important commands:*
     

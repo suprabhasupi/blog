@@ -115,9 +115,9 @@ console.log(userProxy.fullUserName) // suprabha supi
 
 ### 2️⃣ set:
 
-`set` trap controls behaviour when a property of the `target` object is set.
+`set` trap controls behavior when a property of the `target` object is set.
 
-So, let’s say you have to add some condition, so you can do it in `set` trap.
+So, let’s say you have to add some conditions, so you can do it in `set` trap.
 
 ```js
 const user = {
@@ -165,7 +165,7 @@ let proxy = new Proxy(target, {
 });
 ```
 
-Now, lets follow the above example by captialzing the first and last name.
+Now, let's follow the above example by capitalizing on the first and last name.
 
 ```js
 const user = {

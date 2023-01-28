@@ -8,8 +8,6 @@ cover:
 banner: ../../banners/79-pure-vs-impure-functions.png
 tags:
   - JS
-  - Other
-priority: 1
 ---
 
 import LinkPost from '../../../src/components/linkPost'
